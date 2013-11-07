@@ -135,6 +135,12 @@ float dot(const Vector3& v1, const Vector3& v2) {
     return v1.getX() * v2.getX() + v1.getY() * v2.getY() + v1.getZ() * v2.getZ();
 }
 
+float findAngle(const Vector3& v1, const Vector3& v2) {
+    float dotProduct = dot(v1, v2);
+    float cos = v1.magnitude() * v2.magnitude();
+    return acos(dotProduct/cos);
+}
+
 float tripleProduct(const Vector3& v1, const Vector3& v2, const Vector3& v3) {
     return dot(cross(v1, v2), v3);
 }
