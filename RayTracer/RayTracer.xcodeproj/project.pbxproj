@@ -12,6 +12,7 @@
 		FB493F68182C1C4D006D988C /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F66182C1C4D006D988C /* Color.cpp */; };
 		FB493F6C182C1C7D006D988C /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F6A182C1C7D006D988C /* Image.cpp */; };
 		FB493F70182C1CA4006D988C /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F6E182C1CA4006D988C /* Vector3.cpp */; };
+		FB493F74182C2248006D988C /* DynamicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F72182C2248006D988C /* DynamicArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		FB493F6B182C1C7D006D988C /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		FB493F6E182C1CA4006D988C /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3.cpp; sourceTree = "<group>"; };
 		FB493F6F182C1CA4006D988C /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3.h; sourceTree = "<group>"; };
+		FB493F72182C2248006D988C /* DynamicArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicArray.cpp; sourceTree = "<group>"; };
+		FB493F73182C2248006D988C /* DynamicArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		FB493F5B182C1C33006D988C /* RayTracer */ = {
 			isa = PBXGroup;
 			children = (
+				FB493F71182C222E006D988C /* Miscalleneous */,
 				FB493F6D182C1C97006D988C /* Vector */,
 				FB493F69182C1C6F006D988C /* Image */,
 				FB493F65182C1C41006D988C /* Color */,
@@ -103,6 +107,15 @@
 				FB493F6F182C1CA4006D988C /* Vector3.h */,
 			);
 			name = Vector;
+			sourceTree = "<group>";
+		};
+		FB493F71182C222E006D988C /* Miscalleneous */ = {
+			isa = PBXGroup;
+			children = (
+				FB493F72182C2248006D988C /* DynamicArray.cpp */,
+				FB493F73182C2248006D988C /* DynamicArray.h */,
+			);
+			name = Miscalleneous;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +171,7 @@
 			files = (
 				FB493F6C182C1C7D006D988C /* Image.cpp in Sources */,
 				FB493F5D182C1C33006D988C /* main.cpp in Sources */,
+				FB493F74182C2248006D988C /* DynamicArray.cpp in Sources */,
 				FB493F70182C1CA4006D988C /* Vector3.cpp in Sources */,
 				FB493F68182C1C4D006D988C /* Color.cpp in Sources */,
 			);

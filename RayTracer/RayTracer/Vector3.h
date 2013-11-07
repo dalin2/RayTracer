@@ -12,6 +12,8 @@
 #include <math.h>
 #include <iostream>
 
+//no pointers, references in some cases.
+
 class Vector3 {
 public:
     Vector3() {}
