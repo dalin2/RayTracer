@@ -1,0 +1,263 @@
+TRayTracer
+v6
+r1
+cCheck dependencies
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DynamicArray.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/DynamicArray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526DDE80000000000000044C
+t1382932096
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526DDE8000000000000001DB
+t1382932096
+s475
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o
+t2
+s0
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DynamicArray.o
+t2
+s0
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o
+t2
+s0
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o
+t2
+s0
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o
+t2
+s0
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp
+c00000000527C0D1A000000000000080B
+t1383861530
+s2059
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/DynamicArray.cpp
+c00000000527C0BFC00000000000004A5
+t1383861244
+s1189
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp
+c00000000527C0BFC0000000000000C9F
+t1383861244
+s3231
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp
+c00000000527C158300000000000001AC
+t1383863683
+s428
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp
+c00000000527C0BFC0000000000000D72
+t1383861244
+s3442
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp
+c00000000527C0BFC0000000000000115
+t1383861244
+s277
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/DynamicArray.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc4eea3234d2cb841^7653aa234d2cb841^---0#1#1#--18"Check dependencies36"EDA334D3-B8A7-421D-B451-4655102CF9A7-
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405556516.753362
+e405556517.251999
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp200"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o RayTracer/Color.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerfef3c0244d2cb841^408440254d2cb841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp0000000000000000^3104"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o RayTracer/Color.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o36"51606AF7-C7AC-4ECC-9C9D-C4C82582CE9D-
+b44EB34F1-E24B-4597-BF4B-79960A23D259
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DynamicArray.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/DynamicArray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405556515.662207
+e405556516.667247
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DynamicArray.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/DynamicArray.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/DynamicArray.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/DynamicArray.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/DynamicArray.cpp214"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DynamicArray.o RayTracer/DynamicArray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler2fa6a9234d2cb841^3ed0aa244d2cb841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/DynamicArray.cpp0000000000000000^3146"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DynamicArray.o RayTracer/DynamicArray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DynamicArray.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DynamicArray.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/DynamicArray.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DynamicArray.o36"AC4C9D2A-C0D1-48DC-8734-9EFFEE857BEE-
+b44EB34F1-E24B-4597-BF4B-79960A23D259
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405556515.661616
+e405556516.878815
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp200"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o RayTracer/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler04aca9234d2cb841^37fae0244d2cb841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp0000000000000000^3104"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o RayTracer/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o36"65ECAD68-8887-47E2-9D4F-8F5FE9123B6F-
+b44EB34F1-E24B-4597-BF4B-79960A23D259
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405556515.662533
+e405556516.753111
+r0
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+oIn file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:17:15: error: unknown type name 'Vector3'
+o    ONB(const Vector3& a, const Vector3& b, const Vector3& c) {U = a; V = b; W= c;}
+o              ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:17:33: error: unknown type name 'Vector3'
+o    ONB(const Vector3& a, const Vector3& b, const Vector3& c) {U = a; V = b; W= c;}
+o                                ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:17:51: error: unknown type name 'Vector3'
+o    ONB(const Vector3& a, const Vector3& b, const Vector3& c) {U = a; V = b; W= c;}
+o                                                  ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:18:26: error: unknown type name 'Vector3'
+o    void initFromU(const Vector3& u);
+o                         ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:19:26: error: unknown type name 'Vector3'
+o    void initFromV(const Vector3& v);
+o                         ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:20:26: error: unknown type name 'Vector3'
+o    void initFromW(const Vector3& w);
+o                         ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:22:20: error: unknown type name 'Vector3'
+o    void set(const Vector3& a, const Vector3& b,  const Vector3& c) {U = a; V = b; W = c;}
+o                   ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:22:38: error: unknown type name 'Vector3'
+o    void set(const Vector3& a, const Vector3& b,  const Vector3& c) {U = a; V = b; W = c;}
+o                                     ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:22:57: error: unknown type name 'Vector3'
+o    void set(const Vector3& a, const Vector3& b,  const Vector3& c) {U = a; V = b; W = c;}
+o                                                        ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:24:27: error: unknown type name 'Vector3'
+o    void initFromUV(const Vector3& u, const Vector3& v);
+o                          ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:24:45: error: unknown type name 'Vector3'
+o    void initFromUV(const Vector3& u, const Vector3& v);
+o                                            ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:25:27: error: unknown type name 'Vector3'
+o    void initFromVU(const Vector3& v, const Vector 3& u);
+o                          ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:25:45: error: unknown type name 'Vector'
+o    void initFromVU(const Vector3& v, const Vector 3& u);
+o                                            ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:25:52: error: expected ')'
+o    void initFromVU(const Vector3& v, const Vector 3& u);
+o                                                   ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:25:20: note: to match this '('
+o    void initFromVU(const Vector3& v, const Vector 3& u);
+o                   ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:26:27: error: unknown type name 'Vector3'
+o    void initFromUW(const Vector3& u, const Vector3& w);
+o                          ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:26:45: error: unknown type name 'Vector3'
+o    void initFromUW(const Vector3& u, const Vector3& w);
+o                                            ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:27:27: error: unknown type name 'Vector3'
+o    void initFromWU(const Vector3& w, const Vector 3& u);
+o                          ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:27:45: error: unknown type name 'Vector'
+o    void initFromWU(const Vector3& w, const Vector 3& u);
+o                                            ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:27:52: error: expected ')'
+o    void initFromWU(const Vector3& w, const Vector 3& u);
+o                                                   ^
+o/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:27:20: note: to match this '('
+o    void initFromWU(const Vector3& w, const Vector 3& u);
+o                   ^
+ofatal error: too many errors emitted, stopping now [-ferror-limit=]
+o20 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp196"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o RayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler30bda9234d2cb841^7522c1244d2cb841^-4186"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:17:15: error: unknown type name 'Vector3'    ONB(const Vector3& a, const Vector3& b, const Vector3& c) {U = a; V = b; W= c;}              ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:17:33: error: unknown type name 'Vector3'    ONB(const Vector3& a, const Vector3& b, const Vector3& c) {U = a; V = b; W= c;}                                ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:17:51: error: unknown type name 'Vector3'    ONB(const Vector3& a, const Vector3& b, const Vector3& c) {U = a; V = b; W= c;}                                                  ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:18:26: error: unknown type name 'Vector3'    void initFromU(const Vector3& u);                         ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:19:26: error: unknown type name 'Vector3'    void initFromV(const Vector3& v);                         ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:20:26: error: unknown type name 'Vector3'    void initFromW(const Vector3& w);                         ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:22:20: error: unknown type name 'Vector3'    void set(const Vector3& a, const Vector3& b,  const Vector3& c) {U = a; V = b; W = c;}                   ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:22:38: error: unknown type name 'Vector3'    void set(const Vector3& a, const Vector3& b,  const Vector3& c) {U = a; V = b; W = c;}                                     ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:22:57: error: unknown type name 'Vector3'    void set(const Vector3& a, const Vector3& b,  const Vector3& c) {U = a; V = b; W = c;}                                                        ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:24:27: error: unknown type name 'Vector3'    void initFromUV(const Vector3& u, const Vector3& v);                          ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:24:45: error: unknown type name 'Vector3'    void initFromUV(const Vector3& u, const Vector3& v);                                            ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:25:27: error: unknown type name 'Vector3'    void initFromVU(const Vector3& v, const Vector 3& u);                          ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:25:45: error: unknown type name 'Vector'    void initFromVU(const Vector3& v, const Vector 3& u);                                            ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:25:52: error: expected ')'    void initFromVU(const Vector3& v, const Vector 3& u);                                                   ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:25:20: note: to match this '('    void initFromVU(const Vector3& v, const Vector 3& u);                   ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:26:27: error: unknown type name 'Vector3'    void initFromUW(const Vector3& u, const Vector3& w);                          ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:26:45: error: unknown type name 'Vector3'    void initFromUW(const Vector3& u, const Vector3& w);                                            ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:27:27: error: unknown type name 'Vector3'    void initFromWU(const Vector3& w, const Vector 3& u);                          ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:27:45: error: unknown type name 'Vector'    void initFromWU(const Vector3& w, const Vector 3& u);                                            ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:27:52: error: expected ')'    void initFromWU(const Vector3& w, const Vector 3& u);                                                   ^/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h:27:20: note: to match this '('    void initFromWU(const Vector3& w, const Vector 3& u);                   ^fatal error: too many errors emitted, stopping now [-ferror-limit=]20 errors generated.20(36%IDEClangDiagnosticActivityLogMessage2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^16#14#16#14#257#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^16#32#16#32#275#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^16#50#16#50#293#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^17#25#17#25#352#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^18#25#18#25#390#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^19#25#19#25#428#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^21#19#21#19#465#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^21#37#21#37#483#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^21#56#21#56#502#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^23#26#23#26#568#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^23#44#23#44#586#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^24#26#24#26#625#0#11"Parse Issue--2@26"Unknown type name 'Vector'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^24#44#24#44#643#0#11"Parse Issue--2@12"Expected ')'-405556516#18446744073709551615#0#2(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2@17"To match this '('-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^24#19#24#19#618#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^24#51#24#51#650#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^25#26#25#26#683#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^25#44#25#44#701#0#11"Parse Issue--2@27"Unknown type name 'Vector3'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^26#26#26#26#740#0#11"Parse Issue--2@26"Unknown type name 'Vector'-405556516#18446744073709551615#0#1(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^26#44#26#44#758#0#11"Parse Issue--2@12"Expected ')'-405556516#18446744073709551615#0#2(2@79"In file included from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp:9:-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^8#9#8#9#145#0#21"Apple LLVM 5.0 Notice--2@17"To match this '('-405556516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^26#19#26#19#733#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h0000000000000000^26#51#26#51#765#0#11"Parse Issue--2@37"Too many errors emitted, stopping now-405556516#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic-20"Apple LLVM 5.0 Error--0#0#1#-19%DVTDocumentLocation4@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^3092"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o RayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o36"9E0D8BEA-8938-4FD7-99FB-27CECE0A0AF1-
+b44EB34F1-E24B-4597-BF4B-79960A23D259
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405556516.667739
+e405556517.239072
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp204"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o RayTracer/Vector3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler700aab244d2cb841^98353d254d2cb841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp0000000000000000^3116"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o RayTracer/Vector3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o36"27456972-C371-47E0-9FC8-4401963FB5DD-
+b44EB34F1-E24B-4597-BF4B-79960A23D259
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405556515.661847
+e405556516.778296
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp198"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o RayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerfca5a9234d2cb841^bc3ec7244d2cb841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp0000000000000000^3098"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o RayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o36"EDB550F6-F79A-420E-B4B1-A936598375AF-
+b44EB34F1-E24B-4597-BF4B-79960A23D259
+
+CLd /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/RayTracer normal x86_64
+r0
+
