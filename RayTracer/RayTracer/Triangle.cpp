@@ -9,8 +9,8 @@
 #include "Triangle.h"
 
 Triangle::Triangle(const Vector3& p0, const Vector3& p1, const Vector3& p2, const Color& rgb) {
-    v0 = Vector3(p0); v1 = Vector3(p1); v2 = Vector3(p2);
-    color = Color(rgb);
+    v0 = p0; v1 = p1; v2 = p2;
+    color = rgb;
 }
 
 bool Triangle::intersect(const Ray& r, float tmin, float tmax, IntersectRecord& record) const {

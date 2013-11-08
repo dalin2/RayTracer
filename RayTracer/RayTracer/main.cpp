@@ -49,14 +49,11 @@ int main(int argc, const char * argv[])
                 }
             }
             
-            if (is_a_hit) {
-                printf("YES!\n");
+            //if intersects with a shape, draw the shape's color
+            if (is_a_hit)
                 im.set(i, j, record.color);
-            }
-            else {
+            else
                 im.set(i, j, Color(.2, .2, .2));
-                printf("NO!\n");
-            }
         }
     }
     im.writePPM(cout);
