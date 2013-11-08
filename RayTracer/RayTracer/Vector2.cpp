@@ -54,8 +54,8 @@ float Vector2::maxAbsComponent() const {
 }
 
 bool operator==(const Vector2& v1, const Vector2& v2) {
-    if (v1.getX() != v2.getX()) return false;
-    if (v1.getY() != v2.getY()) return false;
+    if (v1.x() != v2.x()) return false;
+    if (v1.y() != v2.y()) return false;
     return true;
 }
 
@@ -64,28 +64,28 @@ bool operator!=(const Vector2& v1, const Vector2& v2) {
 }
 
 Vector2 operator+(const Vector2& v1, const Vector2& v2) {
-    return Vector2(v1.getX() + v2.getX(), v1.getY() + v2.getY());
+    return Vector2(v1.x() + v2.x(), v1.y() + v2.y());
 }
 
 Vector2 operator-(const Vector2& v1, const Vector2& v2) {
-    return Vector2(v1.getX() - v2.getX(), v1.getY() - v2.getY());
+    return Vector2(v1.x() - v2.x(), v1.y() - v2.y());
 }
 
 Vector2 operator/(const Vector2& v1, float scal) {
-    return Vector2(v1.getX() / scal, v1.getY() / scal);
+    return Vector2(v1.x() / scal, v1.y() / scal);
 }
 
 Vector2 operator*(const Vector2& v1, float scal) {
-    return Vector2(v1.getX() * scal, v1.getY() * scal);
+    return Vector2(v1.x() * scal, v1.y() * scal);
 }
 
 Vector2 operator*(float scal, const Vector2& v1) {
-    return Vector2(v1.getX() * scal, v1.getY() * scal);
+    return Vector2(v1.x() * scal, v1.y() * scal);
 }
 
 Vector2& Vector2::operator=(const Vector2& v2) {
-    (*this).setX(v2.getX());
-    (*this).setY(v2.getY());
+    (*this).setX(v2.x());
+    (*this).setY(v2.y());
     return *this;
 }
 
@@ -110,11 +110,11 @@ Vector2& Vector2::operator/=(const float scal) {
 }
 
 float determinant(const Vector2& v1, const Vector2& v2) {
-    return v1.getX() * v2.getY() - v1.getY() * v2.getX();
+    return v1.x() * v2.y() - v1.y() * v2.x();
 }
 
 float dot(const Vector2& v1, const Vector2& v2) {
-    return v1.getX() * v2.getX() + v1.getY() * v2.getY();
+    return v1.x() * v2.x() + v1.y() * v2.y();
 }
 
 float findAngle(const Vector2& v1, const Vector2& v2) {
