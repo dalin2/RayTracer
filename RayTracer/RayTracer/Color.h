@@ -22,7 +22,7 @@ class Color {
 public:
     Color() { r = g = b = 0; }
     Color(float red, float green, float blue);
-    Color(const Color &original) { *this = original; }
+    Color(const Color& original) { *this = original; }
     
     void setRed(float red) { r = red; }
     void setGreen(float green) { g = green; }
@@ -32,10 +32,10 @@ public:
     float getGreen() const { return g; }
     float getBlue() const { return b; }
     
-    Color& operator=(const Color &right_op);
-    Color& operator+=(const Color &right_op);
-    Color& operator*=(const Color &right_op);
-    Color& operator/=(const Color &right_op);
+    Color& operator=(const Color& right_op);
+    Color& operator+=(const Color& right_op);
+    Color& operator*=(const Color& right_op);
+    Color& operator/=(const Color& right_op);
     Color& operator*=(float right_op);
     Color& operator/=(float right_op);
     Color operator+()const { return *this; }

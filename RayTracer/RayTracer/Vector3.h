@@ -18,11 +18,11 @@ class Vector3 {
 public:
     Vector3() {}
     Vector3(float x, float y, float z);
-    Vector3(const Vector3 &v) { *this = v; }
+    Vector3(const Vector3& v) { *this = v; }
     
-    float getX() const { return e[0]; }
-    float getY() const { return e[1]; }
-    float getZ() const { return e[2]; }
+    float x() const { return e[0]; }
+    float y() const { return e[1]; }
+    float z() const { return e[2]; }
     void setX(float x) { e[0] = x; }
     void setY(float y) { e[1] = y; }
     void setZ(float z) { e[2] = z; }

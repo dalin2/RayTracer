@@ -7,7 +7,7 @@
 //
 
 #include "ONB.h"
-#define ONB_EPSILON 0.01f
+#define ONB_EPSILON 0.001f
 
 void ONB::initFromU(const Vector3& u) {
     Vector3 t1(1.0f, 0.0f, 0.0f);
