@@ -28,9 +28,9 @@ struct IntersectRecord {
 class Shape {
 public:
     //time parameter to be used for motion blur in animation
-    virtual bool intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const=0;
+    virtual bool intersect(const Ray& r, float tmin, float tmax, IntersectRecord& record) const=0;
     //useful to determine intersections for occluded objects as it is faster / more efficient
-    virtual bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const=0;
+    virtual bool shadowIntersect(const Ray& r, float tmin, float tmax) const=0;
 };
 
 #endif /* defined(__RayTracer__Shape__) */

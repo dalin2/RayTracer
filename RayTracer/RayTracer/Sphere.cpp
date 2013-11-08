@@ -8,7 +8,7 @@
 
 #include "Sphere.h"
 
-bool Sphere::intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const {
+bool Sphere::intersect(const Ray& r, float tmin, float tmax, IntersectRecord& record) const {
     Vector3 temp = r.origin() - center;
     double a = dot(r.direction(), r.direction());
     double b = 2*dot(r.direction(), temp);
@@ -31,7 +31,7 @@ bool Sphere::intersect(const Ray& r, float tmin, float tmax, float time, Interse
     return false;
 }
 
-bool Sphere::shadowIntersect(const Ray& r, float tmin, float tmax, float time) const {
+bool Sphere::shadowIntersect(const Ray& r, float tmin, float tmax) const {
     Vector3 temp = r.origin() - center;
     double a = dot(r.direction(), r.direction());
     double b = 2*dot(r.direction(), temp);

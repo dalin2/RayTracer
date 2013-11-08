@@ -18,8 +18,8 @@
 class Triangle : public Shape {
 public:
     Triangle(const Vector3& p0, const Vector3& p1, const Vector3& p2, const Color& rgb);
-    bool intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const;
-    bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const;
+    bool intersect(const Ray& r, float tmin, float tmax, IntersectRecord& record) const;
+    bool shadowIntersect(const Ray& r, float tmin, float tmax) const;
 
 private:
     Vector3 v0, v1, v2;

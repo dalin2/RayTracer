@@ -13,12 +13,52 @@
 #include "Image.h"
 #include "Shape.h"
 #include "Triangle.h"
+#include "Sphere.h"
 
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    IntersectRecord record;
+    bool is_a_hit;
+    float tmax; //max valid t parameter
+    Vector3 dir(0, 0, -1); //use -z direction for the viewing rays to use a right handed coordinate system
+    
+    vector<Shape*> shapes;
+    
+    //adding sphere with center (250, 250, -1000) and radius of 150
+    shapes.push_back(new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8)));
+    //adding triangle
+    shapes.push_back(new Triangle(Vector3(300.0f, 600.0f, -800),
+                                  Vector3(0.0f, 100.0f, -1000),
+                                  Vector3(450.0f, 20.0f, -1000),
+                                  Color(.8, .2, .2)));
+    
+    Image im(500, 500);
+    
+    //for each pixel on a 500x500 pixel image
+    for (int i = 0; i < 500; i++) {
+        for (int j = 0; j < 500; j++) {
+            tmax = 100000.0f;
+            is_a_hit = false;
+            Ray r(Vector3(i, j, 0), dir); //ray with pixel as the origin and dir as directional vector
+            
+            for (int k = 0; k < shapes.size(); k++) {
+                if (shapes[k]->intersect(r, .00001f, tmax, record)) {
+                    tmax = record.t;
+                    is_a_hit = true;
+                }
+            }
+            
+            if (is_a_hit) {
+                printf("YES!\n");
+                im.set(i, j, record.color);
+            }
+            else {
+                im.set(i, j, Color(.2, .2, .2));
+                printf("NO!\n");
+            }
+        }
+    }
+    im.writePPM(cout);
 }
 
