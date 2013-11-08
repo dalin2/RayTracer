@@ -6,7 +6,13 @@
 //  Copyright (c) 2013 Dustin Alin. All rights reserved.
 //
 
+#include <vector>
 #include <iostream>
+#include "Vector3.h"
+#include "Color.h"
+#include "Image.h"
+#include "Shape.h"
+#include "Triangle.h"
 
 int main(int argc, const char * argv[])
 {

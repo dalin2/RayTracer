@@ -1,13 +1,13 @@
 //
-//  DynamicArray.h
+//  List.h
 //  RayTracer
 //
 //  Created by Dustin Alin on 11/7/13.
 //  Copyright (c) 2013 Dustin Alin. All rights reserved.
 //
 
-#ifndef __RayTracer__DynamicArray__
-#define __RayTracer__DynamicArray__
+#ifndef __RayTracer__List__
+#define __RayTracer__List__
 
 #include <iostream>
 
@@ -15,11 +15,11 @@
 // no delete operations. Items are added with append. Base array
 // doubles in side when full.
 
-template <class T> class DynamicArray {
+template <class T> class List {
 public:
-    DynamicArray();
-    DynamicArray(int);
-    ~DynamicArray(void);
+    List();
+    List(int);
+    ~List(void);
     
     bool append(T item);
     bool truncate();
@@ -35,4 +35,4 @@ private:
     int arraySize;
 };
 
-#endif /* defined(__RayTracer__DynamicArray__) */
+#endif /* defined(__RayTracer__List__) */
