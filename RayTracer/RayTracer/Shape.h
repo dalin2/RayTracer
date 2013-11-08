@@ -27,7 +27,7 @@ struct IntersectRecord {
 
 class Shape {
 public:
-    //time parameter to be used for motion blur in animation
+    //time parameter to be used for motion blur in animation i.e. see DSphere
     virtual bool intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const=0;
     //useful to determine intersections for occluded objects as it is faster / more efficient
     virtual bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const=0;
