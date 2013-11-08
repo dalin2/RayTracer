@@ -20,6 +20,7 @@
 		FB493F70182C1CA4006D988C /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F6E182C1CA4006D988C /* Vector3.cpp */; };
 		FB493F74182C2248006D988C /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F72182C2248006D988C /* List.cpp */; };
 		FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBCFBC8D182C47CA00517262 /* Vector2.cpp */; };
+		FBCFBC93182C77FA00517262 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBCFBC91182C77FA00517262 /* Camera.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,8 @@
 		FB493F73182C2248006D988C /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		FBCFBC8D182C47CA00517262 /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2.cpp; sourceTree = "<group>"; };
 		FBCFBC8E182C47CA00517262 /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2.h; sourceTree = "<group>"; };
+		FBCFBC91182C77FA00517262 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		FBCFBC92182C77FA00517262 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 		FB493F5B182C1C33006D988C /* RayTracer */ = {
 			isa = PBXGroup;
 			children = (
+				FBCFBC90182C77E700517262 /* Camera */,
 				6C9D5C24182C66BC003690A8 /* Sample */,
 				6C9D5C1A182C54CF003690A8 /* Shape */,
 				6C9D5C16182C53DC003690A8 /* Ray */,
@@ -183,6 +187,15 @@
 				FB493F73182C2248006D988C /* List.h */,
 			);
 			name = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		FBCFBC90182C77E700517262 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FBCFBC91182C77FA00517262 /* Camera.cpp */,
+				FBCFBC92182C77FA00517262 /* Camera.h */,
+			);
+			name = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBCFBC93182C77FA00517262 /* Camera.cpp in Sources */,
 				FB493F6C182C1C7D006D988C /* Image.cpp in Sources */,
 				FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */,
 				FB493F5D182C1C33006D988C /* main.cpp in Sources */,

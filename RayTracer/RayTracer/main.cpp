@@ -43,7 +43,7 @@ int main(int argc, const char * argv[])
             Ray r(Vector3(i, j, 0), dir); //ray with pixel as the origin and dir as directional vector
             
             for (int k = 0; k < shapes.size(); k++) {
-                if (shapes[k]->intersect(r, .00001f, tmax, record)) {
+                if (shapes[k]->intersect(r, .00001f, tmax, 0, record)) {
                     tmax = record.t;
                     is_a_hit = true;
                 }
