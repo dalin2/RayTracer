@@ -22,10 +22,10 @@ public:
     Ray getRay(float a, float b, float xi1, float xi2);
     
 private:
-    Vector3 center, corner, across, up;
+    Vector3 e, corner, across, up;
     ONB basis;
     float lens_radius;
-    float u0, u1, v0, v1;
+    float l, r, b, t;
     float d;
 };
 
