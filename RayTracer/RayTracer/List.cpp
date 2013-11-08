@@ -1,31 +1,31 @@
 //
-//  DynamicArray.cpp
+//  List.cpp
 //  RayTracer
 //
 //  Created by Dustin Alin on 11/7/13.
 //  Copyright (c) 2013 Dustin Alin. All rights reserved.
 //
 
-#include "DynamicArray.h"
+#include "List.h"
 
-template <class T> DynamicArray<T>::DynamicArray() {
+template <class T> List<T>::List() {
     numData = 0;
     arraySize = 4;
     data = new T[arraySize];
 }
 
-template <class T> DynamicArray<T>::DynamicArray(int a) {
+template <class T> List<T>::List(int a) {
     numData = 0;
     arraySize = a;
     data = new T[arraySize];
 }
 
-template <class T> DynamicArray<T>::~DynamicArray() {
+template <class T> List<T>::~List() {
     numData = 0;
     delete [] data;
 }
 
-template <class T> bool DynamicArray<T>::append(T item) {
+template <class T> bool List<T>::append(T item) {
     if (numData == arraySize) {
         arraySize *=2;
         T *temp = data;
@@ -39,7 +39,7 @@ template <class T> bool DynamicArray<T>::append(T item) {
     return true;
 }
 
-template <class T> bool DynamicArray<T>::truncate() {
+template <class T> bool List<T>::truncate() {
     if (numData != arraySize) {
         T *temp = data;
         arraySize = numData;

@@ -67,9 +67,9 @@ float Vector3::maxAbsComponent() const {
 }
 
 bool operator==(const Vector3& v1, const Vector3& v2) {
-    if (v1.getX() != v2.getX()) return false;
-    if (v1.getY() != v2.getY()) return false;
-    if (v1.getZ() != v2.getZ()) return false;
+    if (v1.x() != v2.x()) return false;
+    if (v1.y() != v2.y()) return false;
+    if (v1.z() != v2.z()) return false;
     return true;
 }
 
@@ -78,29 +78,29 @@ bool operator!=(const Vector3& v1, const Vector3& v2) {
 }
 
 Vector3 operator+(const Vector3& v1, const Vector3& v2) {
-    return Vector3(v1.getX() + v2.getX(), v1.getY() + v2.getY(), v1.getZ() + v2.getZ());
+    return Vector3(v1.x() + v2.x(), v1.y() + v2.y(), v1.z() + v2.z());
 }
 
 Vector3 operator-(const Vector3& v1, const Vector3& v2) {
-    return Vector3(v1.getX() - v2.getX(), v1.getY() - v2.getY(), v1.getZ() - v2.getZ());
+    return Vector3(v1.x() - v2.x(), v1.y() - v2.y(), v1.z() - v2.z());
 }
 
 Vector3 operator/(const Vector3& v1, float scal) {
-    return Vector3(v1.getX() / scal, v1.getY() / scal, v1.getZ() / scal);
+    return Vector3(v1.x() / scal, v1.y() / scal, v1.z() / scal);
 }
 
 Vector3 operator*(const Vector3& v1, float scal) {
-    return Vector3(v1.getX() * scal, v1.getY() * scal, v1.getZ() * scal);
+    return Vector3(v1.x() * scal, v1.y() * scal, v1.z() * scal);
 }
 
 Vector3 operator*(float scal, const Vector3& v1) {
-    return Vector3(v1.getX() * scal, v1.getY() * scal, v1.getZ() * scal);
+    return Vector3(v1.x() * scal, v1.y() * scal, v1.z() * scal);
 }
 
 Vector3& Vector3::operator=(const Vector3& v2) {
-    (*this).setX(v2.getX());
-    (*this).setY(v2.getY());
-    (*this).setZ(v2.getZ());
+    (*this).setX(v2.x());
+    (*this).setY(v2.y());
+    (*this).setZ(v2.z());
     return *this;
 }
 
@@ -125,14 +125,14 @@ Vector3& Vector3::operator/=(const float scal) {
 }
 
 Vector3 cross(const Vector3& v1, const Vector3& v2) {
-    float x = v1.getY() * v2.getZ() - v1.getZ() * v2.getY();
-    float y = v1.getZ() * v2.getX() - v1.getX() * v2.getZ();
-    float z = v1.getX() * v2.getY() - v1.getY() * v2.getX();
+    float x = v1.y() * v2.z() - v1.z() * v2.y();
+    float y = v1.z() * v2.x() - v1.x() * v2.z();
+    float z = v1.x() * v2.y() - v1.y() * v2.x();
     return Vector3(x, y, z);
 }
 
 float dot(const Vector3& v1, const Vector3& v2) {
-    return v1.getX() * v2.getX() + v1.getY() * v2.getY() + v1.getZ() * v2.getZ();
+    return v1.x() * v2.x() + v1.y() * v2.y() + v1.z() * v2.z();
 }
 
 float findAngle(const Vector3& v1, const Vector3& v2) {
