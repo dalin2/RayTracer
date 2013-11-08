@@ -17,7 +17,7 @@ bool Triangle::intersect(const Ray& r, float tmin, float tmax, IntersectRecord& 
     float tval;
     //using barycentric coordinates
     float A = v0.x() - v1.x(); float B = v0.y() - v1.y(); float C = v0.z() - v1.z();
-    float D = v1.x() - v2.x(); float E = v1.y() - v2.y(); float F = v1.z() - v2.z();
+    float D = v0.x() - v2.x(); float E = v0.y() - v2.y(); float F = v0.z() - v2.z();
     float G = r.direction().x(); float H = r.direction().y(); float I = r.direction().z();
     float J = v0.x() - r.origin().x(); float K = v0.y() - r.origin().y(); float L = v0.z() - r.origin().z();
     
@@ -49,7 +49,7 @@ bool Triangle::shadowIntersect(const Ray& r, float tmin, float tmax) const {
     float tval;
     //using barycentric coordinates
     float A = v0.x() - v1.x(); float B = v0.y() - v1.y(); float C = v0.z() - v1.z();
-    float D = v1.x() - v2.x(); float E = v1.y() - v2.y(); float F = v1.z() - v2.z();
+    float D = v0.x() - v2.x(); float E = v0.y() - v2.y(); float F = v0.z() - v2.z();
     float G = r.direction().x(); float H = r.direction().y(); float I = r.direction().z();
     float J = v0.x() - r.origin().x(); float K = v0.y() - r.origin().y(); float L = v0.z() - r.origin().z();
     

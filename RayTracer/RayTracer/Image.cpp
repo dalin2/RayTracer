@@ -61,7 +61,7 @@ void Image::gammaCorrect(float gamma) {
 
 void Image::writePPM(ostream& out) {
     //output header
-    out << "P6\n";
+    out << "P3\n";
     out << nx << ' ' << ny << '\n';
     out << "255\n";
     
@@ -79,12 +79,7 @@ void Image::writePPM(ostream& out) {
             red = (unsigned char)(ired);
             green = (unsigned char)(igreen);
             blue = (unsigned char)(iblue);
-            
-            /*
-            out.put(red);
-            out.put(green);
-            out.put(blue);
-             */
+
             out << ired << '\n';
             out << igreen << '\n';
             out << iblue << '\n';
