@@ -18,6 +18,7 @@
 		FB493F6C182C1C7D006D988C /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F6A182C1C7D006D988C /* Image.cpp */; };
 		FB493F70182C1CA4006D988C /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F6E182C1CA4006D988C /* Vector3.cpp */; };
 		FB493F74182C2248006D988C /* DynamicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F72182C2248006D988C /* DynamicArray.cpp */; };
+		FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBCFBC8D182C47CA00517262 /* Vector2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,8 @@
 		FB493F6F182C1CA4006D988C /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3.h; sourceTree = "<group>"; };
 		FB493F72182C2248006D988C /* DynamicArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicArray.cpp; sourceTree = "<group>"; };
 		FB493F73182C2248006D988C /* DynamicArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicArray.h; sourceTree = "<group>"; };
+		FBCFBC8D182C47CA00517262 /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2.cpp; sourceTree = "<group>"; };
+		FBCFBC8E182C47CA00517262 /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 			children = (
 				FB493F6E182C1CA4006D988C /* Vector3.cpp */,
 				FB493F6F182C1CA4006D988C /* Vector3.h */,
+				FBCFBC8D182C47CA00517262 /* Vector2.cpp */,
+				FBCFBC8E182C47CA00517262 /* Vector2.h */,
 			);
 			name = Vector;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB493F6C182C1C7D006D988C /* Image.cpp in Sources */,
+				FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */,
 				FB493F5D182C1C33006D988C /* main.cpp in Sources */,
 				FB493F74182C2248006D988C /* DynamicArray.cpp in Sources */,
 				6C9D5C1D182C54D6003690A8 /* Shape.cpp in Sources */,

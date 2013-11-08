@@ -56,6 +56,7 @@ public:
     
     friend Vector3 cross(const Vector3& v1, const Vector3& v2);
     friend float dot(const Vector3& v1, const Vector3& v2);
+    friend float findAngle(const Vector3& v1, const Vector3& v2);
     friend float tripleProduct(const Vector3& v1, const Vector3& v2, const Vector3& v3);
     friend Vector3 normalize(const Vector3& v);
     
