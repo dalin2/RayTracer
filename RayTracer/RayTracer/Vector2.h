@@ -18,8 +18,8 @@ public:
     Vector2(float x, float y);
     Vector2(const Vector2 &v) { *this = v; }
     
-    float getX() const { return e[0]; }
-    float getY() const { return e[1]; }
+    float x() const { return e[0]; }
+    float y() const { return e[1]; }
     void setX(float x) { e[0] = x; }
     void setY(float y) { e[1] = y; }
     

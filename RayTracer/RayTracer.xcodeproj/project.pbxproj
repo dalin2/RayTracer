@@ -11,6 +11,7 @@
 		6C9D5C1D182C54D6003690A8 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C1B182C54D6003690A8 /* Shape.cpp */; };
 		6C9D5C20182C5588003690A8 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C1E182C5588003690A8 /* Triangle.cpp */; };
 		6C9D5C23182C5E11003690A8 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C21182C5E11003690A8 /* Sphere.cpp */; };
+		6C9D5C27182C66C4003690A8 /* Sample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C25182C66C4003690A8 /* Sample.cpp */; };
 		6CD8D523182C486E00D0B77E /* ONB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8D521182C486E00D0B77E /* ONB.cpp */; };
 		FB493F5D182C1C33006D988C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F5C182C1C33006D988C /* main.cpp */; };
 		FB493F5F182C1C33006D988C /* RayTracer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB493F5E182C1C33006D988C /* RayTracer.1 */; };
@@ -43,6 +44,8 @@
 		6C9D5C1F182C5588003690A8 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
 		6C9D5C21182C5E11003690A8 /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
 		6C9D5C22182C5E11003690A8 /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		6C9D5C25182C66C4003690A8 /* Sample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sample.cpp; sourceTree = "<group>"; };
+		6C9D5C26182C66C4003690A8 /* Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample.h; sourceTree = "<group>"; };
 		6CD8D521182C486E00D0B77E /* ONB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ONB.cpp; sourceTree = "<group>"; };
 		6CD8D522182C486E00D0B77E /* ONB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONB.h; sourceTree = "<group>"; };
 		FB493F59182C1C33006D988C /* RayTracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracer; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +96,15 @@
 			name = Shape;
 			sourceTree = "<group>";
 		};
+		6C9D5C24182C66BC003690A8 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				6C9D5C25182C66C4003690A8 /* Sample.cpp */,
+				6C9D5C26182C66C4003690A8 /* Sample.h */,
+			);
+			name = Sample;
+			sourceTree = "<group>";
+		};
 		6CD8D51D182C47CB00D0B77E /* ONB */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +133,7 @@
 		FB493F5B182C1C33006D988C /* RayTracer */ = {
 			isa = PBXGroup;
 			children = (
+				6C9D5C24182C66BC003690A8 /* Sample */,
 				6C9D5C1A182C54CF003690A8 /* Shape */,
 				6C9D5C16182C53DC003690A8 /* Ray */,
 				6CD8D51D182C47CB00D0B77E /* ONB */,
@@ -232,6 +245,7 @@
 				6C9D5C19182C53E6003690A8 /* Ray.cpp in Sources */,
 				FB493F70182C1CA4006D988C /* Vector3.cpp in Sources */,
 				6C9D5C20182C5588003690A8 /* Triangle.cpp in Sources */,
+				6C9D5C27182C66C4003690A8 /* Sample.cpp in Sources */,
 				6C9D5C23182C5E11003690A8 /* Sphere.cpp in Sources */,
 				FB493F68182C1C4D006D988C /* Color.cpp in Sources */,
 			);
