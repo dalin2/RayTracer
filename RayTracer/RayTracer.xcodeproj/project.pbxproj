@@ -12,6 +12,7 @@
 		6C9D5C20182C5588003690A8 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C1E182C5588003690A8 /* Triangle.cpp */; };
 		6C9D5C23182C5E11003690A8 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C21182C5E11003690A8 /* Sphere.cpp */; };
 		6C9D5C27182C66C4003690A8 /* Sample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C25182C66C4003690A8 /* Sample.cpp */; };
+		6C9D5C2A182C77A5003690A8 /* DSphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C28182C77A5003690A8 /* DSphere.cpp */; };
 		6CD8D523182C486E00D0B77E /* ONB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8D521182C486E00D0B77E /* ONB.cpp */; };
 		FB493F5D182C1C33006D988C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F5C182C1C33006D988C /* main.cpp */; };
 		FB493F5F182C1C33006D988C /* RayTracer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB493F5E182C1C33006D988C /* RayTracer.1 */; };
@@ -46,6 +47,8 @@
 		6C9D5C22182C5E11003690A8 /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
 		6C9D5C25182C66C4003690A8 /* Sample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sample.cpp; sourceTree = "<group>"; };
 		6C9D5C26182C66C4003690A8 /* Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample.h; sourceTree = "<group>"; };
+		6C9D5C28182C77A5003690A8 /* DSphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DSphere.cpp; sourceTree = "<group>"; };
+		6C9D5C29182C77A5003690A8 /* DSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSphere.h; sourceTree = "<group>"; };
 		6CD8D521182C486E00D0B77E /* ONB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ONB.cpp; sourceTree = "<group>"; };
 		6CD8D522182C486E00D0B77E /* ONB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONB.h; sourceTree = "<group>"; };
 		FB493F59182C1C33006D988C /* RayTracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracer; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +95,8 @@
 				6C9D5C1F182C5588003690A8 /* Triangle.h */,
 				6C9D5C21182C5E11003690A8 /* Sphere.cpp */,
 				6C9D5C22182C5E11003690A8 /* Sphere.h */,
+				6C9D5C28182C77A5003690A8 /* DSphere.cpp */,
+				6C9D5C29182C77A5003690A8 /* DSphere.h */,
 			);
 			name = Shape;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 				6C9D5C27182C66C4003690A8 /* Sample.cpp in Sources */,
 				6C9D5C23182C5E11003690A8 /* Sphere.cpp in Sources */,
 				FB493F68182C1C4D006D988C /* Color.cpp in Sources */,
+				6C9D5C2A182C77A5003690A8 /* DSphere.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
