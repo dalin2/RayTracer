@@ -19,7 +19,7 @@ public:
     Camera(const Camera& orig);
     Camera(Vector3 c, Vector3 gaze, Vector3 vup, float aperture, float left, float right,
            float bottom, float top, float distance);
-    Ray getRay(float a, float b, float xi1, float xi2);
+    Ray getRay(float a, float b, float nx, float ny, float xi1, float xi2);
     
 private:
     Vector3 e, corner, across, up;
