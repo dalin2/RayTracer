@@ -13,7 +13,7 @@ Triangle::Triangle(const Vector3& p0, const Vector3& p1, const Vector3& p2, cons
     color = rgb;
 }
 
-bool Triangle::intersect(const Ray& r, float tmin, float tmax, IntersectRecord& record) const {
+bool Triangle::intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const {
     float tval;
     //using barycentric coordinates
     float A = v0.x() - v1.x(); float B = v0.y() - v1.y(); float C = v0.z() - v1.z();
@@ -45,7 +45,7 @@ bool Triangle::intersect(const Ray& r, float tmin, float tmax, IntersectRecord& 
     return false;
 }
 
-bool Triangle::shadowIntersect(const Ray& r, float tmin, float tmax) const {
+bool Triangle::shadowIntersect(const Ray& r, float tmin, float tmax, float time) const {
     float tval;
     //using barycentric coordinates
     float A = v0.x() - v1.x(); float B = v0.y() - v1.y(); float C = v0.z() - v1.z();
