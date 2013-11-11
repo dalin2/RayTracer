@@ -7,6 +7,7 @@
 //
 
 #include "Triangle.h"
+#include "SimpleTexture.h"
 
 Triangle::Triangle(const Vector3& p0, const Vector3& p1, const Vector3& p2, const Color& rgb) {
     v0 = p0; v1 = p1; v2 = p2;
@@ -38,7 +39,7 @@ bool Triangle::intersect(const Ray& r, float tmin, float tmax, float time, Inter
     if (tval >= tmin && tval <= tmax) {
         record.t = tval;
         record.normal = normalize(cross((v1 - v0), (v2 - v0)));
-        record.color = color;
+        record.tex = SimpleTexture(color);
         return true;
     }
     
