@@ -20,14 +20,5 @@ public:
     virtual Color value(const Vector2&, const Vector3&) const = 0;
 };
 
-
-
-
-
-
-
-
-
-
 #endif /* defined(__RayTracer__Texture__) */
 
