@@ -20,7 +20,7 @@ public:
     float turbulence(const Vector3& p, int depth) const;
     float dturbulence(const Vector3& p, int depth, float d) const;
     float omega(float t) const;
-    Vector3 gamma(int i, int j, int j) const;
+    Vector3 gamma(int i, int j, int k) const;
     int intGamma(int i, int j) const;
     float knot(int i, int j, int k, Vector3& v) const;
     

@@ -52,7 +52,7 @@ int main(int argc, const char * argv[])
             
             //if intersects with a shape, draw the shape's color
             if (is_a_hit)
-                im.set(i, j, record.color);
+                im.set(i, j, record.tex ->value(record.uv, record.intersection));
             else
                 im.set(i, j, Color(.2, .2, .2));
         }

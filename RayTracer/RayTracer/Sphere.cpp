@@ -7,6 +7,7 @@
 //
 
 #include "Sphere.h"
+#include "SimpleTexture.h"
 
 bool Sphere::intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const {
     Vector3 temp = r.origin() - center;
@@ -25,7 +26,7 @@ bool Sphere::intersect(const Ray& r, float tmin, float tmax, float time, Interse
         //have a valid intersection
         record.t = t;
         record.normal = normalize(r.origin() + t*r.direction() - center);
-        record.color = color;
+        record.tex = new SimpleTexture(color);
         return true;
     }
     return false;

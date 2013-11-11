@@ -39,7 +39,7 @@ bool Triangle::intersect(const Ray& r, float tmin, float tmax, float time, Inter
     if (tval >= tmin && tval <= tmax) {
         record.t = tval;
         record.normal = normalize(cross((v1 - v0), (v2 - v0)));
-        record.tex = SimpleTexture(color);
+        record.tex = new SimpleTexture(color);
         return true;
     }
     
