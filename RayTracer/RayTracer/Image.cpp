@@ -131,6 +131,18 @@ void Image::readPPM(string file_name) {
     }
 }
 
+int Image::width() {
+    return nx;
+}
+
+int Image::height() {
+    return ny;
+}
+
+Color Image::getPixel(int i, int j) {
+    return raster[i][j];
+}
+
 
 
 

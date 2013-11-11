@@ -1,7 +1,9 @@
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o
+/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o
+/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o
@@ -9,6 +11,11 @@
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.o
+/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o
+/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.o
+/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.o
+/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.o
+/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.o
 /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.o

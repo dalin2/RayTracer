@@ -7,6 +7,7 @@
 //
 
 #include "DSphere.h"
+#include "SimpleTexture.h"
 
 DSphere::DSphere(const Vector3& oc, float r, const Color& rgb, float min_time, float max_time) {
     ocenter = Vector3(oc); radius = float(r); color = Color(rgb);
@@ -31,7 +32,7 @@ bool DSphere::intersect(const Ray& r, float tmin, float tmax, float time, Inters
         //have a valid intersection
         record.t = t;
         record.normal = normalize(r.origin() + t*r.direction() - center);
-        record.color = color;
+        record.tex = new SimpleTexture(color);
         return true;
     }
     return false;

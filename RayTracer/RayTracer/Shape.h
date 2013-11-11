@@ -11,18 +11,22 @@
 
 #include <iostream>
 #include "Ray.h"
+#include "Texture.h"
 #include "Vector3.h"
 #include "Color.h"
 
 //class Ray;
 //class Color;
 
+
 /*records t value for interesection (so we can retrieve (x, y, z) coordinates from parametric equations as well
  as the normal of the surface intersected and the color to be drawn */
 struct IntersectRecord {
     float t;
     Vector3 normal;
-    Color color;
+    Vector2 uv; //used for 2D textures
+    Vector3 intersection; //point of intersection
+    Texture* tex; //texture of nearest interesected object
 };
 
 class Shape {
