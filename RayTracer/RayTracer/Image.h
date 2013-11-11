@@ -16,8 +16,6 @@
 #include "Color.h"
 using namespace std;
 
-#endif /* defined(__Ray_Tracer__Image__) */
-
 class Image {
 public:
     Image();
@@ -30,6 +28,9 @@ public:
     
     void writePPM(ostream& out);
     void readPPM(string file_name);
+    int width();
+    int height();
+    Color getPixel(int i, int j);
     
 private:
     Color** raster;
@@ -37,3 +38,5 @@ private:
     int ny;
     
 };
+
+#endif /* defined(__Ray_Tracer__Image__) */

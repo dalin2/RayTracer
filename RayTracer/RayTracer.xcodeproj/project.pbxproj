@@ -12,6 +12,8 @@
 		6C8FC8C61830A7B500945A37 /* NoiseTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C41830A7B500945A37 /* NoiseTexture.cpp */; };
 		6C8FC8C91830A90200945A37 /* SimpleTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C71830A90200945A37 /* SimpleTexture.cpp */; };
 		6C8FC8CD1830A96400945A37 /* MarbleTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8CB1830A96400945A37 /* MarbleTexture.cpp */; };
+		6C8FC8D71830ACC700945A37 /* ImageTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8D51830ACC700945A37 /* ImageTexture.cpp */; };
+		6C8FC8DA1830AE0600945A37 /* UVSphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8D81830AE0600945A37 /* UVSphere.cpp */; };
 		6C9D5C19182C53E6003690A8 /* Ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C17182C53E6003690A8 /* Ray.cpp */; };
 		6C9D5C1D182C54D6003690A8 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C1B182C54D6003690A8 /* Shape.cpp */; };
 		6C9D5C20182C5588003690A8 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D5C1E182C5588003690A8 /* Triangle.cpp */; };
@@ -53,6 +55,10 @@
 		6C8FC8C81830A90200945A37 /* SimpleTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTexture.h; sourceTree = "<group>"; };
 		6C8FC8CB1830A96400945A37 /* MarbleTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarbleTexture.cpp; sourceTree = "<group>"; };
 		6C8FC8CC1830A96400945A37 /* MarbleTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarbleTexture.h; sourceTree = "<group>"; };
+		6C8FC8D51830ACC700945A37 /* ImageTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageTexture.cpp; sourceTree = "<group>"; };
+		6C8FC8D61830ACC700945A37 /* ImageTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTexture.h; sourceTree = "<group>"; };
+		6C8FC8D81830AE0600945A37 /* UVSphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UVSphere.cpp; sourceTree = "<group>"; };
+		6C8FC8D91830AE0600945A37 /* UVSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVSphere.h; sourceTree = "<group>"; };
 		6C9D5C17182C53E6003690A8 /* Ray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ray.cpp; sourceTree = "<group>"; };
 		6C9D5C18182C53E6003690A8 /* Ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
 		6C9D5C1B182C54D6003690A8 /* Shape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
@@ -98,6 +104,7 @@
 		6C8FC8BA18309F5500945A37 /* Textures */ = {
 			isa = PBXGroup;
 			children = (
+				6C8FC8D41830ACB900945A37 /* ImageTexture */,
 				6C8FC8CE1830A96900945A37 /* MarbleTexture */,
 				6C8FC8CA1830A90A00945A37 /* SimpleTexture */,
 				6C8FC8C31830A7A400945A37 /* NoiseTexture */,
@@ -164,6 +171,7 @@
 		6C8FC8D01830AB1800945A37 /* Spheres */ = {
 			isa = PBXGroup;
 			children = (
+				6C8FC8DB1830AE0C00945A37 /* UVSphere */,
 				6C8FC8D31830AB3300945A37 /* DSphere */,
 				6C8FC8D21830AB2800945A37 /* Sphere */,
 			);
@@ -195,6 +203,24 @@
 				6C9D5C29182C77A5003690A8 /* DSphere.h */,
 			);
 			name = DSphere;
+			sourceTree = "<group>";
+		};
+		6C8FC8D41830ACB900945A37 /* ImageTexture */ = {
+			isa = PBXGroup;
+			children = (
+				6C8FC8D51830ACC700945A37 /* ImageTexture.cpp */,
+				6C8FC8D61830ACC700945A37 /* ImageTexture.h */,
+			);
+			name = ImageTexture;
+			sourceTree = "<group>";
+		};
+		6C8FC8DB1830AE0C00945A37 /* UVSphere */ = {
+			isa = PBXGroup;
+			children = (
+				6C8FC8D81830AE0600945A37 /* UVSphere.cpp */,
+				6C8FC8D91830AE0600945A37 /* UVSphere.h */,
+			);
+			name = UVSphere;
 			sourceTree = "<group>";
 		};
 		6C9D5C16182C53DC003690A8 /* Ray */ = {
@@ -372,6 +398,7 @@
 				6C8FC8CD1830A96400945A37 /* MarbleTexture.cpp in Sources */,
 				FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */,
 				FB493F5D182C1C33006D988C /* main.cpp in Sources */,
+				6C8FC8D71830ACC700945A37 /* ImageTexture.cpp in Sources */,
 				FB493F74182C2248006D988C /* List.cpp in Sources */,
 				6C9D5C1D182C54D6003690A8 /* Shape.cpp in Sources */,
 				6CD8D523182C486E00D0B77E /* ONB.cpp in Sources */,
@@ -385,6 +412,7 @@
 				6C8FC8C21830A50200945A37 /* Texture.cpp in Sources */,
 				6C8FC8BE18309F7300945A37 /* SolidNoise.cpp in Sources */,
 				6C8FC8C61830A7B500945A37 /* NoiseTexture.cpp in Sources */,
+				6C8FC8DA1830AE0600945A37 /* UVSphere.cpp in Sources */,
 				6C9D5C2A182C77A5003690A8 /* DSphere.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
