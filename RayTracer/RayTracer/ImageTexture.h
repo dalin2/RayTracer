@@ -16,8 +16,9 @@
 class ImageTexture : public Texture {
 public:
     ImageTexture(char* file_name);
+    ~ImageTexture(void);
     virtual Color value(const Vector2& uv, const Vector3& p) const;
-
+    
 private:
     Image* image;
 

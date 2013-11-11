@@ -22,8 +22,8 @@ SolidNoise::SolidNoise() {
     for (int i = 0; i < 16; i++) {
         phi[i] = i;
         //shuffle phi
-        for (i = 14; i >= 0; i--) {
-            int target = int(rand() * i);
+        for (int j = 14; j >= 0; j--) {
+            int target = int((double)rand()/RAND_MAX * i);
             int temp = phi[i + 1];
             phi[i + 1] = phi[target];
             phi[target] = temp;

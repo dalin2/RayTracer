@@ -14,6 +14,11 @@ ImageTexture::ImageTexture(char * file_path) {
     image -> readPPM(file_path);
 }
 
+ImageTexture::~ImageTexture(void) {
+    delete image;
+}
+
+
 Color ImageTexture::value(const Vector2& uv, const Vector3& p) const {
     float u = uv.x() - int(uv.x());
     float v = uv.y() - int(uv.y());
