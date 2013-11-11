@@ -7,9 +7,11 @@
 //
 
 #include "UVSphere.h"
+#include "SimpleTexture.h"
+
 
 UVSphere::UVSphere(const Vector3& c, float r, Texture* txt) {
-    center = Vector3(c); radius = float(r); tex = Texture(txt);
+    center = Vector3(c); radius = float(r); tex = txt;
 }
 
 bool UVSphere::intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const {
