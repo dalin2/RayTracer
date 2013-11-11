@@ -34,8 +34,8 @@ Camera::Camera(Vector3 c, Vector3 gaze, Vector3 vup, float aperture, float left,
     lens_radius = aperture/2.0F; //aperture is diameter of lens
     basis.initFromWV(-gaze, vup); //gaze is the viewing direction (i.e. -w)
     corner = e + l*basis.u() + b*basis.v() - d*basis.w();
-    across = (l-r)*basis.u();
-    up = (b-t)*basis.v();
+    across = (r-l)*basis.u();
+    up = (t-b)*basis.v();
 }
 
 Ray Camera::getRay(float i, float j, float nx, float ny, float xi1, float xi2) {

@@ -14,6 +14,7 @@
 #include "Shape.h"
 #include "Triangle.h"
 #include "Sphere.h"
+#include "Camera.h"
 
 int main(int argc, const char * argv[])
 {
@@ -26,21 +27,27 @@ int main(int argc, const char * argv[])
     vector<Shape*> shapes;
     
     //adding sphere with center (250, 250, -1000) and radius of 150
-    shapes.push_back(new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8)));
+    shapes.push_back(new Sphere(Vector3(0, 0, 0), sqrt(2), Color(.2, .2, .8)));
     //adding triangle
+    /*
     shapes.push_back(new Triangle(Vector3(300.0f, 600.0f, -800),
                                   Vector3(0.0f, 100.0f, -1000),
                                   Vector3(450.0f, 20.0f, -1000),
                                   Color(.8, .2, .2)));
+     */
     
-    Image im(500, 500);
+    float res = 101;
+    Image im(res, res);
+    Camera cam(Vector3(0, 0, 2), Vector3(0, 0, -2), Vector3(0, 1, 0), 0.0, -2, 2, -2, 2, 2);
+    
     
     //for each pixel on a 500x500 pixel image
-    for (int i = 0; i < 500; i++) {
-        for (int j = 0; j < 500; j++) {
+    for (int i = 0; i < res; i++) {
+        for (int j = 0; j < res; j++) {
             tmax = 100000.0f;
             is_a_hit = false;
-            Ray r(Vector3(i, j, 0), dir); //ray with pixel as the origin and dir as directional vector
+            //Ray r(Vector3(i, j, 0), dir); //ray with pixel as the origin and dir as directional vector
+            Ray r = cam.getRay(i, j, res, res, 0, 0);
             
             for (int k = 0; k < shapes.size(); k++) {
                 if (shapes[k]->intersect(r, .00001f, tmax, 0, record)) {
