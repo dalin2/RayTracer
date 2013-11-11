@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C3CD26D18319B7300FB7688 /* Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD26B18319B7300FB7688 /* Vertex.cpp */; };
+		6C3CD27218319BDF00FB7688 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD27018319BDF00FB7688 /* Mesh.cpp */; };
+		6C3CD27518319C8500FB7688 /* TriangleMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD27318319C8500FB7688 /* TriangleMesh.cpp */; };
 		6C8FC8BE18309F7300945A37 /* SolidNoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8BC18309F7300945A37 /* SolidNoise.cpp */; };
 		6C8FC8C21830A50200945A37 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C01830A50200945A37 /* Texture.cpp */; };
 		6C8FC8C61830A7B500945A37 /* NoiseTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C41830A7B500945A37 /* NoiseTexture.cpp */; };
@@ -45,6 +48,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C3CD26B18319B7300FB7688 /* Vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vertex.cpp; sourceTree = "<group>"; };
+		6C3CD26C18319B7300FB7688 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		6C3CD27018319BDF00FB7688 /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		6C3CD27118319BDF00FB7688 /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		6C3CD27318319C8500FB7688 /* TriangleMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriangleMesh.cpp; sourceTree = "<group>"; };
+		6C3CD27418319C8500FB7688 /* TriangleMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleMesh.h; sourceTree = "<group>"; };
 		6C8FC8BC18309F7300945A37 /* SolidNoise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolidNoise.cpp; sourceTree = "<group>"; };
 		6C8FC8BD18309F7300945A37 /* SolidNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidNoise.h; sourceTree = "<group>"; };
 		6C8FC8C01830A50200945A37 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
@@ -101,6 +110,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C3CD26A18319B6400FB7688 /* Vertex */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CD26B18319B7300FB7688 /* Vertex.cpp */,
+				6C3CD26C18319B7300FB7688 /* Vertex.h */,
+			);
+			name = Vertex;
+			sourceTree = "<group>";
+		};
+		6C3CD26E18319BBC00FB7688 /* Meshes */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CD27618319C8C00FB7688 /* Triangle */,
+				6C3CD26F18319BC600FB7688 /* Mesh */,
+				6C3CD26A18319B6400FB7688 /* Vertex */,
+			);
+			name = Meshes;
+			sourceTree = "<group>";
+		};
+		6C3CD26F18319BC600FB7688 /* Mesh */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CD27018319BDF00FB7688 /* Mesh.cpp */,
+				6C3CD27118319BDF00FB7688 /* Mesh.h */,
+			);
+			name = Mesh;
+			sourceTree = "<group>";
+		};
+		6C3CD27618319C8C00FB7688 /* Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CD27318319C8500FB7688 /* TriangleMesh.cpp */,
+				6C3CD27418319C8500FB7688 /* TriangleMesh.h */,
+			);
+			name = Triangle;
+			sourceTree = "<group>";
+		};
 		6C8FC8BA18309F5500945A37 /* Textures */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +281,7 @@
 		6C9D5C1A182C54CF003690A8 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				6C3CD26E18319BBC00FB7688 /* Meshes */,
 				6C8FC8D11830AB1C00945A37 /* Triangle */,
 				6C8FC8D01830AB1800945A37 /* Spheres */,
 				6C8FC8CF1830AB1300945A37 /* Shape */,
@@ -410,10 +457,13 @@
 				6C9D5C23182C5E11003690A8 /* Sphere.cpp in Sources */,
 				FB493F68182C1C4D006D988C /* Color.cpp in Sources */,
 				6C8FC8C21830A50200945A37 /* Texture.cpp in Sources */,
+				6C3CD27218319BDF00FB7688 /* Mesh.cpp in Sources */,
 				6C8FC8BE18309F7300945A37 /* SolidNoise.cpp in Sources */,
 				6C8FC8C61830A7B500945A37 /* NoiseTexture.cpp in Sources */,
+				6C3CD27518319C8500FB7688 /* TriangleMesh.cpp in Sources */,
 				6C8FC8DA1830AE0600945A37 /* UVSphere.cpp in Sources */,
 				6C9D5C2A182C77A5003690A8 /* DSphere.cpp in Sources */,
+				6C3CD26D18319B7300FB7688 /* Vertex.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
