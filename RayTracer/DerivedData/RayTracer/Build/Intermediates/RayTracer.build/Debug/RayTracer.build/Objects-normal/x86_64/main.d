@@ -9,4 +9,8 @@ dependencies: /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.h

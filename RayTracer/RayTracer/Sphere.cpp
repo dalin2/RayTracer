@@ -28,7 +28,7 @@ bool Sphere::intersect(const Ray& r, float tmin, float tmax, float time, Interse
         //have a valid intersection
         record.t = t;
         record.normal = normalize(r.origin() + t*r.direction() - center);
-        record.tex = new MarbleTexture(10);
+        record.tex = new SimpleTexture(color);
         return true;
     }
     return false;

@@ -15,6 +15,11 @@
 #include "Triangle.h"
 #include "Sphere.h"
 #include "Camera.h"
+#include "MarbleTexture.h"
+#include "UVSphere.h"
+#include "Texture.h"
+#include "SolidNoise.h"
+#include "NoiseTexture.h"
 
 int main(int argc, const char * argv[])
 {
@@ -27,7 +32,7 @@ int main(int argc, const char * argv[])
     vector<Shape*> shapes;
     
     //adding sphere with center (250, 250, -1000) and radius of 150
-    shapes.push_back(new Sphere(Vector3(0, 0, 0), sqrt(2), Color(.2, .2, .8)));
+    //shapes.push_back(new Sphere(Vector3(0, 0, 0), sqrt(2), Color(.2, .2, .8)));
     //adding triangle
     /*
     shapes.push_back(new Triangle(Vector3(300.0f, 600.0f, -800),
@@ -35,6 +40,9 @@ int main(int argc, const char * argv[])
                                   Vector3(450.0f, 20.0f, -1000),
                                   Color(.8, .2, .2)));
      */
+    
+    shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new NoiseTexture()));
+    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(10)));
     
     float res = 101;
     Image im(res, res);
@@ -57,7 +65,7 @@ int main(int argc, const char * argv[])
             
             //if intersects with a shape, draw the shape's color
             if (is_a_hit)
-                im.set(i, j, record.tex ->value(record.uv, record.intersection));
+                im.set(i, j, record.tex -> value(record.uv, record.intersection));
             else
                 im.set(i, j, Color(.2, .2, .2));
         }
