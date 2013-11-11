@@ -21,9 +21,9 @@ Camera::Camera(const Camera& orig)  {
     d = orig.d; //camera distance to screen (calculated using screen normal)
     lens_radius = orig.lens_radius; //radius of lens
 }
-
 Camera::Camera(Vector3 c, Vector3 gaze, Vector3 vup, float aperture, float left,
                float right, float bottom, float top, float distance) {
+    aperture = 0; //set aperture to 0 for now...deal with lens stuff later...
     e = c;
     d = distance;
     l = left;
@@ -39,7 +39,7 @@ Camera::Camera(Vector3 c, Vector3 gaze, Vector3 vup, float aperture, float left,
 }
 
 Ray Camera::getRay(float i, float j, float nx, float ny, float xi1, float xi2) {
-    //xi1 and xi2 are lens samples...set to 0 to use single point lens (i.e. lens center => e) as shown in class...
+    //xi1 and xi2 are lens samples...set aperture to 0 to ignore lens size...
     float a = (i  + 0.5) / nx;
     float b = (j + 0.5) / ny;
     //change origin based on the fact that our camera is no longer a point. i.e. shift e by some factor of the lens radius.

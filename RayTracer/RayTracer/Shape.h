@@ -17,6 +17,17 @@
 //class Ray;
 //class Color;
 
+/*
+ //TODO: implement this....
+struct IntersectRecord {
+    float t;
+    Vector3 normal;
+    Vector2 uv; //used for 2D textures
+    Vector3 intersection; //point of intersection
+    Texture* tex; //texture of nearest interesected object
+};
+ */
+
 /*records t value for interesection (so we can retrieve (x, y, z) coordinates from parametric equations as well
  as the normal of the surface intersected and the color to be drawn */
 struct IntersectRecord {

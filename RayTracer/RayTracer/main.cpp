@@ -33,6 +33,7 @@ int main(int argc, const char * argv[])
                                   Vector3(450.0f, 20.0f, -1000),
                                   Color(.8, .2, .2)));
     
+    
     Image im(500, 500);
     
     //for each pixel on a 500x500 pixel image
