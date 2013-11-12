@@ -29,6 +29,8 @@ public:
     
     const Vector3& operator+() const;
     Vector3 operator-() const;
+    float operator[](int i) const {return e[i];}
+    float& operator[](int i) {return e[i];}
     
     float magnitude() const;
     float squaredMagnitude() const;
