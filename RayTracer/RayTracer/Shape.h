@@ -14,6 +14,7 @@
 #include "Texture.h"
 #include "Vector3.h"
 #include "Color.h"
+#include "ONB.h"
 
 //class Ray;
 //class Color;
@@ -25,6 +26,7 @@ struct IntersectRecord {
     float t;
     Vector3 normal;
     Vector2 uv; //used for 2D textures
+    ONB uvw; //used for instancing...correct??
     Vector3 intersection; //point of intersection
     Texture* tex; //texture of nearest interesected object
 };

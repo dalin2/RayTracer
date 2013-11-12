@@ -52,7 +52,7 @@ public:
     friend Matrix getZRotationMatrix(float angle);
     friend Matrix getViewMatrix(const Vector3& eye, const Vector3& gaze, const Vector3& up);
     
-    friend ostream& operator<<(ostream& out, const Matrix& right_op);
+    friend std::ostream& operator<<(std::ostream& out, const Matrix& right_op);
     
 private:
     float matrix[4][4];

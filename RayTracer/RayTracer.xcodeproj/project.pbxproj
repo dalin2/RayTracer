@@ -11,6 +11,7 @@
 		6C3CD27218319BDF00FB7688 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD27018319BDF00FB7688 /* Mesh.cpp */; };
 		6C3CD27518319C8500FB7688 /* TriangleMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD27318319C8500FB7688 /* TriangleMesh.cpp */; };
 		6C3CD2831831EACF00FB7688 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD2821831EACF00FB7688 /* Matrix.cpp */; };
+		6C3CD2871831F85A00FB7688 /* Instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD2851831F85A00FB7688 /* Instance.cpp */; };
 		6C8FC8BE18309F7300945A37 /* SolidNoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8BC18309F7300945A37 /* SolidNoise.cpp */; };
 		6C8FC8C21830A50200945A37 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C01830A50200945A37 /* Texture.cpp */; };
 		6C8FC8C61830A7B500945A37 /* NoiseTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C41830A7B500945A37 /* NoiseTexture.cpp */; };
@@ -57,6 +58,8 @@
 		6C3CD27418319C8500FB7688 /* TriangleMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleMesh.h; sourceTree = "<group>"; };
 		6C3CD2801831A7C600FB7688 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
 		6C3CD2821831EACF00FB7688 /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		6C3CD2851831F85A00FB7688 /* Instance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Instance.cpp; sourceTree = "<group>"; };
+		6C3CD2861831F85A00FB7688 /* Instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instance.h; sourceTree = "<group>"; };
 		6C8FC8BC18309F7300945A37 /* SolidNoise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolidNoise.cpp; sourceTree = "<group>"; };
 		6C8FC8BD18309F7300945A37 /* SolidNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidNoise.h; sourceTree = "<group>"; };
 		6C8FC8C01830A50200945A37 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
@@ -157,6 +160,15 @@
 				6C3CD2821831EACF00FB7688 /* Matrix.cpp */,
 			);
 			name = Matrices;
+			sourceTree = "<group>";
+		};
+		6C3CD2841831F84C00FB7688 /* Instances */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CD2851831F85A00FB7688 /* Instance.cpp */,
+				6C3CD2861831F85A00FB7688 /* Instance.h */,
+			);
+			name = Instances;
 			sourceTree = "<group>";
 		};
 		6C8FC8BA18309F5500945A37 /* Textures */ = {
@@ -293,6 +305,7 @@
 		6C9D5C1A182C54CF003690A8 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				6C3CD2841831F84C00FB7688 /* Instances */,
 				6C3CD26E18319BBC00FB7688 /* Meshes */,
 				6C8FC8D11830AB1C00945A37 /* Triangle */,
 				6C8FC8D01830AB1800945A37 /* Spheres */,
@@ -459,6 +472,7 @@
 				FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */,
 				6C3CD2831831EACF00FB7688 /* Matrix.cpp in Sources */,
 				FB493F5D182C1C33006D988C /* main.cpp in Sources */,
+				6C3CD2871831F85A00FB7688 /* Instance.cpp in Sources */,
 				6C8FC8D71830ACC700945A37 /* ImageTexture.cpp in Sources */,
 				FB493F74182C2248006D988C /* List.cpp in Sources */,
 				6C9D5C1D182C54D6003690A8 /* Shape.cpp in Sources */,
