@@ -6,4 +6,6 @@ dependencies: /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.cpp \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h

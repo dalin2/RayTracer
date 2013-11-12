@@ -304,7 +304,7 @@ Matrix getYRotationMatrix(float angle) {
     return ret;
 }
 
-Matrix rotateZ(float angle) {
+Matrix getZRotationMatrix(float angle) {
     Matrix ret = getIdentityMatrix();
     float cosine = cos(angle);
     float sine = sin(angle);
@@ -315,7 +315,7 @@ Matrix rotateZ(float angle) {
     return ret;
 }
 
-Matrix viewMatrix(const Vector3& eye, const Vector3& gaze, const Vector3& up) {
+Matrix getViewMatrix(const Vector3& eye, const Vector3& gaze, const Vector3& up) {
     Matrix ret = getIdentityMatrix();
     //make orthonormal basis
     Vector3 w = (-normalize(gaze));

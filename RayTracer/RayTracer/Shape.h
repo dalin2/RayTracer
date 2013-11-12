@@ -15,6 +15,7 @@
 #include "Vector3.h"
 #include "Color.h"
 #include "ONB.h"
+#include "BBox.h"
 
 //class Ray;
 //class Color;
@@ -37,6 +38,10 @@ public:
     virtual bool intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const=0;
     //useful to determine intersections for occluded objects as it is faster / more efficient
     virtual bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const=0;
+    virtual BBox boundingBox(float time0, float time1) const {return bbox;} //correct?
+    
+private:
+    BBox bbox;
 };
 
 #endif /* defined(__RayTracer__Shape__) */

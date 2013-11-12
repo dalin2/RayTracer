@@ -27,14 +27,7 @@ private:
     Matrix M; //transformation matrix
     Matrix N; //inverse transformation matrix
     Shape* prim; //base shape (primary shape)
-    
-    
-    
-    
+
 };
-
-
-
-
 
 #endif /* defined(__RayTracer__ShapeInstance__) */

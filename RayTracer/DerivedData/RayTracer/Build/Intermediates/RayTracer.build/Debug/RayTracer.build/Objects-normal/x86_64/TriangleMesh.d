@@ -7,5 +7,7 @@ dependencies: \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.h

@@ -6,4 +6,6 @@ dependencies: /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.cpp \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.h

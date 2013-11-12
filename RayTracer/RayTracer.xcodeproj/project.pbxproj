@@ -12,6 +12,9 @@
 		6C3CD27518319C8500FB7688 /* TriangleMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD27318319C8500FB7688 /* TriangleMesh.cpp */; };
 		6C3CD2831831EACF00FB7688 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD2821831EACF00FB7688 /* Matrix.cpp */; };
 		6C3CD2871831F85A00FB7688 /* Instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD2851831F85A00FB7688 /* Instance.cpp */; };
+		6C3CD28C183205E800FB7688 /* BBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD28A183205E800FB7688 /* BBox.cpp */; };
+		6C3CD2901832093300FB7688 /* QSplit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD28E1832093300FB7688 /* QSplit.cpp */; };
+		6C3CD294183209FA00FB7688 /* BVH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD292183209FA00FB7688 /* BVH.cpp */; };
 		6C8FC8BE18309F7300945A37 /* SolidNoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8BC18309F7300945A37 /* SolidNoise.cpp */; };
 		6C8FC8C21830A50200945A37 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C01830A50200945A37 /* Texture.cpp */; };
 		6C8FC8C61830A7B500945A37 /* NoiseTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C41830A7B500945A37 /* NoiseTexture.cpp */; };
@@ -60,6 +63,12 @@
 		6C3CD2821831EACF00FB7688 /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
 		6C3CD2851831F85A00FB7688 /* Instance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Instance.cpp; sourceTree = "<group>"; };
 		6C3CD2861831F85A00FB7688 /* Instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instance.h; sourceTree = "<group>"; };
+		6C3CD28A183205E800FB7688 /* BBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BBox.cpp; sourceTree = "<group>"; };
+		6C3CD28B183205E800FB7688 /* BBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBox.h; sourceTree = "<group>"; };
+		6C3CD28E1832093300FB7688 /* QSplit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QSplit.cpp; sourceTree = "<group>"; };
+		6C3CD28F1832093300FB7688 /* QSplit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSplit.h; sourceTree = "<group>"; };
+		6C3CD292183209FA00FB7688 /* BVH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BVH.cpp; sourceTree = "<group>"; };
+		6C3CD293183209FA00FB7688 /* BVH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVH.h; sourceTree = "<group>"; };
 		6C8FC8BC18309F7300945A37 /* SolidNoise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolidNoise.cpp; sourceTree = "<group>"; };
 		6C8FC8BD18309F7300945A37 /* SolidNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidNoise.h; sourceTree = "<group>"; };
 		6C8FC8C01830A50200945A37 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
@@ -169,6 +178,43 @@
 				6C3CD2861831F85A00FB7688 /* Instance.h */,
 			);
 			name = Instances;
+			sourceTree = "<group>";
+		};
+		6C3CD288183205CA00FB7688 /* Bounding */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CD291183209F100FB7688 /* BVH */,
+				6C3CD28D1832091E00FB7688 /* Partition */,
+				6C3CD289183205DA00FB7688 /* BBox */,
+			);
+			name = Bounding;
+			sourceTree = "<group>";
+		};
+		6C3CD289183205DA00FB7688 /* BBox */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CD28A183205E800FB7688 /* BBox.cpp */,
+				6C3CD28B183205E800FB7688 /* BBox.h */,
+			);
+			name = BBox;
+			sourceTree = "<group>";
+		};
+		6C3CD28D1832091E00FB7688 /* Partition */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CD28E1832093300FB7688 /* QSplit.cpp */,
+				6C3CD28F1832093300FB7688 /* QSplit.h */,
+			);
+			name = Partition;
+			sourceTree = "<group>";
+		};
+		6C3CD291183209F100FB7688 /* BVH */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CD292183209FA00FB7688 /* BVH.cpp */,
+				6C3CD293183209FA00FB7688 /* BVH.h */,
+			);
+			name = BVH;
 			sourceTree = "<group>";
 		};
 		6C8FC8BA18309F5500945A37 /* Textures */ = {
@@ -305,6 +351,7 @@
 		6C9D5C1A182C54CF003690A8 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				6C3CD288183205CA00FB7688 /* Bounding */,
 				6C3CD2841831F84C00FB7688 /* Instances */,
 				6C3CD26E18319BBC00FB7688 /* Meshes */,
 				6C8FC8D11830AB1C00945A37 /* Triangle */,
@@ -466,9 +513,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C3CD28C183205E800FB7688 /* BBox.cpp in Sources */,
 				FBCFBC93182C77FA00517262 /* Camera.cpp in Sources */,
 				FB493F6C182C1C7D006D988C /* Image.cpp in Sources */,
 				6C8FC8CD1830A96400945A37 /* MarbleTexture.cpp in Sources */,
+				6C3CD2901832093300FB7688 /* QSplit.cpp in Sources */,
 				FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */,
 				6C3CD2831831EACF00FB7688 /* Matrix.cpp in Sources */,
 				FB493F5D182C1C33006D988C /* main.cpp in Sources */,
@@ -489,6 +538,7 @@
 				6C8FC8BE18309F7300945A37 /* SolidNoise.cpp in Sources */,
 				6C8FC8C61830A7B500945A37 /* NoiseTexture.cpp in Sources */,
 				6C3CD27518319C8500FB7688 /* TriangleMesh.cpp in Sources */,
+				6C3CD294183209FA00FB7688 /* BVH.cpp in Sources */,
 				6C8FC8DA1830AE0600945A37 /* UVSphere.cpp in Sources */,
 				6C9D5C2A182C77A5003690A8 /* DSphere.cpp in Sources */,
 				6C3CD26D18319B7300FB7688 /* Vertex.cpp in Sources */,
