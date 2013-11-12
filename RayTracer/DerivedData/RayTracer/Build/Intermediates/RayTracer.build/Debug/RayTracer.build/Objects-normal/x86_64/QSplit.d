@@ -1,5 +1,5 @@
 dependencies: /Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Qsplit.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h \

@@ -6,4 +6,4 @@
 //  Copyright (c) 2013 Dustin Alin. All rights reserved.
 //
 
-#include "Qsplit.h"
+#include "QSplit.h"

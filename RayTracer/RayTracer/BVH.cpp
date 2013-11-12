@@ -8,7 +8,6 @@
 
 #include "BVH.h"
 
-
 BVH::BVH() {}
 
 BVH::BVH(Shape** shapes, int num_shapes) {
@@ -22,7 +21,7 @@ BVH::BVH(Shape** shapes, int num_shapes) {
     }
     Vector3 pivot = (bbox.max() + bbox.min()) / 2.0f;
     
-    int midpt = QSplit(shapes, num_shapes, pivot.x(), 0);
+    int midpt = QSplit::qsplit(shapes, num_shapes, pivot.x(), 0);
     
     //create new bounding volume
     left = buildBranch(shapes, midpt, 1);
@@ -66,7 +65,7 @@ Shape* BVH::buildBranch(Shape** shapes, int shape_size, int axis) {
     Vector3 pivot = (box.max() + box.min()) / 2.0f;
     
     //split according to correct axis
-    int midpt = QSplit(shapes, shape_size, pivot[axis], axis);
+    int midpt = QSplit::qsplit(shapes, shape_size, pivot[axis], axis);
     
     //create new bounding volume
     Shape* left = buildBranch(shapes, midpt, (axis + 1) % 3);

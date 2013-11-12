@@ -180,14 +180,14 @@
 			name = Instances;
 			sourceTree = "<group>";
 		};
-		6C3CD288183205CA00FB7688 /* Bounding */ = {
+		6C3CD288183205CA00FB7688 /* BVH */ = {
 			isa = PBXGroup;
 			children = (
 				6C3CD291183209F100FB7688 /* BVH */,
 				6C3CD28D1832091E00FB7688 /* Partition */,
 				6C3CD289183205DA00FB7688 /* BBox */,
 			);
-			name = Bounding;
+			name = BVH;
 			sourceTree = "<group>";
 		};
 		6C3CD289183205DA00FB7688 /* BBox */ = {
@@ -351,7 +351,7 @@
 		6C9D5C1A182C54CF003690A8 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
-				6C3CD288183205CA00FB7688 /* Bounding */,
+				6C3CD288183205CA00FB7688 /* BVH */,
 				6C3CD2841831F84C00FB7688 /* Instances */,
 				6C3CD26E18319BBC00FB7688 /* Meshes */,
 				6C8FC8D11830AB1C00945A37 /* Triangle */,
