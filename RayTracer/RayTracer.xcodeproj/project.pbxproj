@@ -225,7 +225,6 @@
 				6C8FC8CA1830A90A00945A37 /* SimpleTexture */,
 				6C8FC8C31830A7A400945A37 /* NoiseTexture */,
 				6C8FC8BF1830A4F300945A37 /* Texture */,
-				6C8FC8BB18309F5E00945A37 /* SolidNoise */,
 			);
 			name = Textures;
 			sourceTree = "<group>";
@@ -251,6 +250,7 @@
 		6C8FC8C31830A7A400945A37 /* NoiseTexture */ = {
 			isa = PBXGroup;
 			children = (
+				6C8FC8BB18309F5E00945A37 /* SolidNoise */,
 				6C8FC8C41830A7B500945A37 /* NoiseTexture.cpp */,
 				6C8FC8C51830A7B500945A37 /* NoiseTexture.h */,
 			);
