@@ -8,6 +8,7 @@ dependencies: /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Material.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.h \

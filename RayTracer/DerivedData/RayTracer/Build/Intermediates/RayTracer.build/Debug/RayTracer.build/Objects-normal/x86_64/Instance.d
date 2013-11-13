@@ -8,4 +8,5 @@ dependencies: /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.cpp \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Material.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.h

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C12C2F5183317480057FE7E /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C12C2F3183317480057FE7E /* Material.cpp */; };
+		6C12C2F918331AEC0057FE7E /* DiffuseMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C12C2F718331AEC0057FE7E /* DiffuseMaterial.cpp */; };
+		6C12C2FE18331EB30057FE7E /* PhongMetalMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C12C2FC18331EB30057FE7E /* PhongMetalMaterial.cpp */; };
+		6C12C302183349C70057FE7E /* DiffSpecMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C12C300183349C70057FE7E /* DiffSpecMaterial.cpp */; };
+		6C12C306183353100057FE7E /* DielectricMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C12C304183353100057FE7E /* DielectricMaterial.cpp */; };
 		6C3CD26D18319B7300FB7688 /* Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD26B18319B7300FB7688 /* Vertex.cpp */; };
 		6C3CD27218319BDF00FB7688 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD27018319BDF00FB7688 /* Mesh.cpp */; };
 		6C3CD27518319C8500FB7688 /* TriangleMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD27318319C8500FB7688 /* TriangleMesh.cpp */; };
@@ -53,6 +58,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C12C2F3183317480057FE7E /* Material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Material.cpp; sourceTree = "<group>"; };
+		6C12C2F4183317480057FE7E /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		6C12C2F718331AEC0057FE7E /* DiffuseMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiffuseMaterial.cpp; sourceTree = "<group>"; };
+		6C12C2F818331AEC0057FE7E /* DiffuseMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffuseMaterial.h; sourceTree = "<group>"; };
+		6C12C2FC18331EB30057FE7E /* PhongMetalMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhongMetalMaterial.cpp; sourceTree = "<group>"; };
+		6C12C2FD18331EB30057FE7E /* PhongMetalMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhongMetalMaterial.h; sourceTree = "<group>"; };
+		6C12C300183349C70057FE7E /* DiffSpecMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiffSpecMaterial.cpp; sourceTree = "<group>"; };
+		6C12C301183349C70057FE7E /* DiffSpecMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffSpecMaterial.h; sourceTree = "<group>"; };
+		6C12C304183353100057FE7E /* DielectricMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DielectricMaterial.cpp; sourceTree = "<group>"; };
+		6C12C305183353100057FE7E /* DielectricMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DielectricMaterial.h; sourceTree = "<group>"; };
 		6C3CD26B18319B7300FB7688 /* Vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vertex.cpp; sourceTree = "<group>"; };
 		6C3CD26C18319B7300FB7688 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
 		6C3CD27018319BDF00FB7688 /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
@@ -125,6 +140,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C12C2F21833173B0057FE7E /* Materials */ = {
+			isa = PBXGroup;
+			children = (
+				6C12C303183352FE0057FE7E /* Dielectric */,
+				6C12C2FF183349BB0057FE7E /* DiffSpecMaterial */,
+				6C12C2FB18331E990057FE7E /* PhongMetal */,
+				6C12C2FA18331AF10057FE7E /* DiffuseMaterial */,
+				6C12C2F61833174D0057FE7E /* Material */,
+			);
+			name = Materials;
+			sourceTree = "<group>";
+		};
+		6C12C2F61833174D0057FE7E /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				6C12C2F3183317480057FE7E /* Material.cpp */,
+				6C12C2F4183317480057FE7E /* Material.h */,
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+		6C12C2FA18331AF10057FE7E /* DiffuseMaterial */ = {
+			isa = PBXGroup;
+			children = (
+				6C12C2F718331AEC0057FE7E /* DiffuseMaterial.cpp */,
+				6C12C2F818331AEC0057FE7E /* DiffuseMaterial.h */,
+			);
+			name = DiffuseMaterial;
+			sourceTree = "<group>";
+		};
+		6C12C2FB18331E990057FE7E /* PhongMetal */ = {
+			isa = PBXGroup;
+			children = (
+				6C12C2FC18331EB30057FE7E /* PhongMetalMaterial.cpp */,
+				6C12C2FD18331EB30057FE7E /* PhongMetalMaterial.h */,
+			);
+			name = PhongMetal;
+			sourceTree = "<group>";
+		};
+		6C12C2FF183349BB0057FE7E /* DiffSpecMaterial */ = {
+			isa = PBXGroup;
+			children = (
+				6C12C300183349C70057FE7E /* DiffSpecMaterial.cpp */,
+				6C12C301183349C70057FE7E /* DiffSpecMaterial.h */,
+			);
+			name = DiffSpecMaterial;
+			sourceTree = "<group>";
+		};
+		6C12C303183352FE0057FE7E /* Dielectric */ = {
+			isa = PBXGroup;
+			children = (
+				6C12C304183353100057FE7E /* DielectricMaterial.cpp */,
+				6C12C305183353100057FE7E /* DielectricMaterial.h */,
+			);
+			name = Dielectric;
+			sourceTree = "<group>";
+		};
 		6C3CD26A18319B6400FB7688 /* Vertex */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,6 +470,7 @@
 		FB493F5B182C1C33006D988C /* RayTracer */ = {
 			isa = PBXGroup;
 			children = (
+				6C12C2F21833173B0057FE7E /* Materials */,
 				6C3CD27A1831A63700FB7688 /* Matrices */,
 				6C8FC8BA18309F5500945A37 /* Textures */,
 				FBCFBC90182C77E700517262 /* Camera */,
@@ -513,14 +586,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C12C2F918331AEC0057FE7E /* DiffuseMaterial.cpp in Sources */,
 				6C3CD28C183205E800FB7688 /* BBox.cpp in Sources */,
 				FBCFBC93182C77FA00517262 /* Camera.cpp in Sources */,
 				FB493F6C182C1C7D006D988C /* Image.cpp in Sources */,
 				6C8FC8CD1830A96400945A37 /* MarbleTexture.cpp in Sources */,
+				6C12C2FE18331EB30057FE7E /* PhongMetalMaterial.cpp in Sources */,
 				6C3CD2901832093300FB7688 /* QSplit.cpp in Sources */,
 				FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */,
 				6C3CD2831831EACF00FB7688 /* Matrix.cpp in Sources */,
 				FB493F5D182C1C33006D988C /* main.cpp in Sources */,
+				6C12C2F5183317480057FE7E /* Material.cpp in Sources */,
 				6C3CD2871831F85A00FB7688 /* Instance.cpp in Sources */,
 				6C8FC8D71830ACC700945A37 /* ImageTexture.cpp in Sources */,
 				FB493F74182C2248006D988C /* List.cpp in Sources */,
@@ -528,9 +604,11 @@
 				6CD8D523182C486E00D0B77E /* ONB.cpp in Sources */,
 				6C9D5C19182C53E6003690A8 /* Ray.cpp in Sources */,
 				FB493F70182C1CA4006D988C /* Vector3.cpp in Sources */,
+				6C12C306183353100057FE7E /* DielectricMaterial.cpp in Sources */,
 				6C9D5C20182C5588003690A8 /* Triangle.cpp in Sources */,
 				6C9D5C27182C66C4003690A8 /* Sample.cpp in Sources */,
 				6C8FC8C91830A90200945A37 /* SimpleTexture.cpp in Sources */,
+				6C12C302183349C70057FE7E /* DiffSpecMaterial.cpp in Sources */,
 				6C9D5C23182C5E11003690A8 /* Sphere.cpp in Sources */,
 				FB493F68182C1C4D006D988C /* Color.cpp in Sources */,
 				6C8FC8C21830A50200945A37 /* Texture.cpp in Sources */,

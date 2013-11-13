@@ -7,4 +7,5 @@ dependencies: /Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h \
   /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h \
+  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Material.h

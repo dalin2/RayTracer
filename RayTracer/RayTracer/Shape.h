@@ -16,6 +16,7 @@
 #include "Color.h"
 #include "ONB.h"
 #include "BBox.h"
+#include "Material.h"
 
 //class Ray;
 //class Color;
@@ -23,6 +24,7 @@
 
 /*records t value for interesection (so we can retrieve (x, y, z) coordinates from parametric equations as well
  as the normal of the surface intersected and the color to be drawn */
+/*
 struct IntersectRecord {
     float t;
     Vector3 normal;
@@ -30,6 +32,19 @@ struct IntersectRecord {
     ONB uvw; //used for instancing...correct??
     Vector3 intersection; //point of intersection
     Texture* tex; //texture of nearest interesected object
+};
+*/
+
+//combination of old and new intersection records...
+struct IntersectRecord {
+    float t;
+    Vector3 normal; //normal is now just w of uvw (new record) so unnecessary
+    Vector3 intersection;
+    Vector3 texture_intersection;
+    ONB uvw;
+    Vector2 uv;
+    Texture* tex; //tex now stored in material so unnecessary
+    Material* material;
 };
 
 class Shape {
