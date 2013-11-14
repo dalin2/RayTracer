@@ -1,12 +1,13 @@
-dependencies: /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.cpp \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Material.h \
-  /Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.h
+dependencies: \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/BVH.cpp \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/BVH.h \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/Shape.h \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/Ray.h \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/Vector3.h \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/Texture.h \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/Vector2.h \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/Color.h \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/ONB.h \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/BBox.h \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/Material.h \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 344/RayTracer/RayTracer/RayTracer/QSplit.h

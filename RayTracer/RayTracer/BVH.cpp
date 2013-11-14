@@ -32,13 +32,13 @@ BBox BVH::boundingBox(float time0, float time1) const {
     return bbox;
 }
 
-bool BVH::intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& rec) const {
+bool BVH::intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const {
     if (!(bbox.rayIntersect(r, tmin, tmax))) {return false;}
     //otherwise call intersect on branches
-    rec.t = tmax;
+    record.t = tmax;
     
-    bool intersect1 = right -> intersect(r, tmin, tmax, time, rec);
-    bool intersect2 = left -> intersect(r, tmin, rec.t, time, rec);
+    bool intersect1 = right -> intersect(r, tmin, tmax, time, record);
+    bool intersect2 = left -> intersect(r, tmin, record.t, time, record);
     
     return intersect1 || intersect2;
 }

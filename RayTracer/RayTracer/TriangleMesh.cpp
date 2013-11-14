@@ -18,7 +18,7 @@ MeshTriangleUV::MeshTriangleUV(Mesh* m, int v0, int v1, int v2, int index) : mes
 
 MeshTriangleUV::~MeshTriangleUV() {}
 
-bool MeshTriangleUV::intersect(const Ray&r, float tmin, float tmax, float time, IntersectRecord& rec) const {
+bool MeshTriangleUV::intersect(const Ray&r, float tmin, float tmax, float time, IntersectRecord& record) const {
     Vector3 v0((mesh -> vertUVs[verts[0]]).vertex);
     Vector3 v1((mesh -> vertUVs[verts[1]]).vertex);
     Vector3 v2((mesh -> vertUVs[verts[2]]).vertex);
@@ -44,10 +44,10 @@ bool MeshTriangleUV::intersect(const Ray&r, float tmin, float tmax, float time, 
         Vector2 u0((mesh -> vertUVs[verts[0]]).uv);
         Vector2 u1((mesh -> vertUVs[verts[1]]).uv);
         Vector2 u2((mesh -> vertUVs[verts[2]]).uv);
-        rec.uv = Vector2(alpha*u0.x() + beta*u1.x() + gamma*u2.x(), alpha*u0.y() + beta*u1.y() + gamma*u2.y());
-        rec.tex = mesh -> getTexture();
-        rec.t = tval;
-        rec.normal = normalize(cross((v1 - v0), (v2 - v0)));
+        record.uv = Vector2(alpha*u0.x() + beta*u1.x() + gamma*u2.x(), alpha*u0.y() + beta*u1.y() + gamma*u2.y());
+        record.tex = mesh -> getTexture();
+        record.t = tval;
+        record.normal = normalize(cross((v1 - v0), (v2 - v0)));
         return true;
     }
     return false;

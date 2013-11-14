@@ -37,7 +37,7 @@ Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vect
     _pdf = 1.0f / area;
 }
 
-bool Parallelogram::intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& rec) const {
+bool Parallelogram::intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const {
     double dot1 = dot(r.direction(), norm);
     //check if ray parallel to surface plane
     if (dot1 < PARALLEL_EPSILON && dot1 > -PARALLEL_EPSILON) {return false;}
@@ -53,11 +53,11 @@ bool Parallelogram::intersect(const Ray& r, float tmin, float tmax, float time, 
     float v1 = dot(vnorm, offset) / v.magnitude();
     if (v1 < 0.0f || v1 > 1.0f) {return false;}
     //fill intersect record
-    rec.material = mptr;
-    rec.intersection = rec.texture_intersection = hit_plane;
-    rec.t = t;
-    rec.uvw.initFromW(norm);
-    rec.uv = v1 * uv2 + (1.0f - v1) * uv0 + u1 * uv1;
+    record.material = mptr;
+    record.intersection = record.texture_intersection = hit_plane;
+    record.t = t;
+    record.uvw.initFromW(norm);
+    record.uv = v1 * uv2 + (1.0f - v1) * uv0 + u1 * uv1;
     return true;
 }
 
