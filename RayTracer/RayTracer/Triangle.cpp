@@ -70,6 +70,11 @@ bool Triangle::shadowIntersect(const Ray& r, float tmin, float tmax, float time)
     return (tval >= tmin && tval <= tmax);
 }
 
+BBox Triangle::boundingBox(float time0, float time1) const {
+    //TODO: implement
+    return bbox;
+}
+
 bool Triangle::randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const {
     float temp = sqrt(1.0f - seed.x());
     float beta = (1.0f - temp);

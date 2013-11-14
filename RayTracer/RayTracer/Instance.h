@@ -22,6 +22,8 @@ public:
     Instance(Matrix trans, Shape* orig);
     bool intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& rec) const;
     bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const;
+    BBox boundingBox(float time0, float time1) const;
+    virtual bool randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const;
 
 private:
     Matrix M; //transformation matrix

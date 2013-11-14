@@ -35,3 +35,14 @@ bool Instance::shadowIntersect(const Ray& r, float tmin, float tmax, float time)
     return prim -> shadowIntersect(tray, tmin, tmax, time);
 }
 
+BBox Instance::boundingBox(float time0, float time1) const {
+    //TODO: implement
+    return bbox;
+}
+
+bool Instance::randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const {
+    //transformations?????
+    return prim -> randomPoint(viewpoint, seed, time, light_point, N, pdf, radiance);
+    
+}
+

@@ -71,6 +71,11 @@ bool UVSphere::shadowIntersect(const Ray& r, float tmin, float tmax, float time)
     return false;
 }
 
+BBox UVSphere::boundingBox(float time0, float time1) const {
+    //TODO: implement
+    return bbox;
+}
+
 bool UVSphere::randomPoint(const Vector3 &viewpoint, const Vector2 &seed, float time, Vector3 &light_point, Vector3 &N, float &pdf, Color &radiance) const {
     float d = (viewpoint - center).magnitude();
     if (d < radius) {return false;}

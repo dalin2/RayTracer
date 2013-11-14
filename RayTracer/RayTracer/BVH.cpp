@@ -53,6 +53,11 @@ bool BVH::shadowIntersect(const Ray& r, float tmin, float tmax, float time) cons
     return intersect1 || intersect2;
 }
 
+bool BVH::randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const {
+    //implement??
+    return true;
+}
+
 Shape* BVH::buildBranch(Shape** shapes, int shape_size, int axis) {
     if (shape_size == 1) {return shapes[0];}
     else if (shape_size == 2) {return new BVH(shapes[0], shapes[1]);}
@@ -72,6 +77,8 @@ Shape* BVH::buildBranch(Shape** shapes, int shape_size, int axis) {
     Shape* right = buildBranch(&shapes[midpt], shape_size - midpt, (axis + 1) %3);
     return new BVH(left, right, box);
 }
+
+
 
 
 
