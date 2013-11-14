@@ -8,6 +8,7 @@
 
 #include "UVSphere.h"
 #include "SimpleTexture.h"
+#include <cfloat>
 
 
 UVSphere::UVSphere(const Vector3& c, float r, Texture* txt) {
@@ -68,5 +69,35 @@ bool UVSphere::shadowIntersect(const Ray& r, float tmin, float tmax, float time)
         return true;
     }
     return false;
+}
+
+bool UVSphere::randomPoint(const Vector3 &viewpoint, const Vector2 &seed, float time, Vector3 &light_point, Vector3 &N, float &pdf, Color &radiance) const {
+    float d = (viewpoint - center).magnitude();
+    if (d < radius) {return false;}
+    float r = radius;
+    //internal angle of cone surrounding light seen from viewpoint
+    float sin_alpha_max = r / d;
+    float cos_alpha_max = sqrt(1 - sin_alpha_max * sin_alpha_max);
+    float q = 1.0 / (2*M_PI*(1 - cos_alpha_max));
+    float cos_alpha = 1 + seed.x() * (cos_alpha_max - 1);
+    float sin_alpha = sqrt(1 - cos_alpha * cos_alpha);
+    float phi = 2*M_PI*seed.y();
+    float cos_phi = cos(phi);
+    float sin_phi = sin(phi);
+    Vector3 k_i(cos_phi * sin_alpha, sin_phi * sin_alpha, cos_alpha);
+    //construct local coordinate system UVW where viewpoint at origin and sphere at (0,0,d) in UVW
+    ONB UVW;
+    UVW.initFromW(center - viewpoint);
+    Ray to_light(viewpoint, k_i.x() * UVW.u() + k_i.y() * UVW.v() + k_i.z() * UVW.w());
     
+    IntersectRecord rec;
+    if (this -> intersect(to_light, 0.00001, FLT_MAX, time, rec)) {
+        light_point = rec.intersection;
+        float cos_theta_prime = -dot(rec.uvw.w(), to_light.direction());
+        pdf = q * cos_theta_prime / (light_point - viewpoint).squaredMagnitude();
+        N = rec.uvw.w();
+        radiance = mptr -> emittedRadiance(rec.uvw, -to_light.direction(), light_point, rec.uv);
+        return true;
+    }
+    return false;
 }

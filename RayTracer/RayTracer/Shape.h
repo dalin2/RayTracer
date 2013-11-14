@@ -54,9 +54,10 @@ public:
     //useful to determine intersections for occluded objects as it is faster / more efficient
     virtual bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const=0;
     virtual BBox boundingBox(float time0, float time1) const {return bbox;} //correct?
-    
-private:
+    virtual bool randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const;
+protected:
     BBox bbox;
+    Material* mptr;
 };
 
 #endif /* defined(__RayTracer__Shape__) */

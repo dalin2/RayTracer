@@ -12,7 +12,7 @@
 DielectricMaterial::DielectricMaterial(float _nt, const Color& _ex) : nt(_nt), extinction(_ex) {
     R0 = (nt - 1.0f) / (nt + 1.0f);
     R0 *= R0;
-    float r= log(extinction.getRed());
+    float r = log(extinction.getRed());
     float g = log(extinction.getGreen());
     float b = log(extinction.getBlue());
     
@@ -33,7 +33,7 @@ bool DielectricMaterial::specularDirection(const ONB& uvw, const Vector3& in_dir
     else { //(cosine > 0.0f) so ray is outgoing
         reflection = reflect(in_dir, -uvw.w()); //write this?
         float temp2 = -(dot(in_dir, -normal));
-        float root = 1.0f - (nt*nt) * (1.0f - temp2*temp2);
+        float root = 1.0f - (nt*nt) * (1.0f - temp2*temp2); //snell's law for cosines, assume n = 1 for air (and/or for incoming material)
         if (root < 0.0f) {scale = 1.0f;} //total internal reflection
         else {
             scale = R0 + (1.0f - R0) * pow(1.0f - cosine, 5);
@@ -42,6 +42,12 @@ bool DielectricMaterial::specularDirection(const ONB& uvw, const Vector3& in_dir
     //pass back amount of reflected light
     ratio = Color(scale, scale, scale);
     return true;
+}
+
+
+Vector3 DielectricMaterial::reflect(const Vector3& in_dir, const Vector3& normal) {
+    float cosine = dot(normal, in_dir); //use dot product to get cos(theta) where theta angle between in_dir and normal
+    return in_dir + 2 * cosine * normal; //use cosine to calculate reflected ray (angle of incidence same as exit angle)
 }
 
 bool DielectricMaterial::transmissionDirection(const ONB &uvw, const Vector3 &in_dir, const Vector3 &texp, const Vector2 &uv, const Vector2 &rseed, Color& _extinction, float &fresnel_scale, Vector3 &transmission) {

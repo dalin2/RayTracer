@@ -20,6 +20,8 @@ public:
     Sphere(const Vector3& c, float r, const Color& rgb) {center = Vector3(c); radius = float(r); color = Color(rgb);}
     bool intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const;
     bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const;
+   // BBox boundingBox(float time0, float time1) const;
+    bool randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const;
     
 private:
     Vector3 center;

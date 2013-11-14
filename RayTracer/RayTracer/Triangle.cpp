@@ -70,6 +70,18 @@ bool Triangle::shadowIntersect(const Ray& r, float tmin, float tmax, float time)
     return (tval >= tmin && tval <= tmax);
 }
 
+bool Triangle::randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const {
+    float temp = sqrt(1.0f - seed.x());
+    float beta = (1.0f - temp);
+    float gamma = temp*seed.y();
+    light_point = (1.0f - beta - gamma) * v0 + beta * v1 + gamma * v2;
+    Vector3 from_light = normalize(viewpoint - light_point);
+    ONB uvw;
+    N = normalize(cross((v1 - v0), (v2 - v0)));
+    uvw.initFromW(N);
+    radiance = mptr -> emittedRadiance(uvw, from_light, light_point, Vector2(0.0f, 0.0f));
+    return true;
+}
 
 
 
