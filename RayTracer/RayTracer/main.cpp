@@ -20,6 +20,9 @@
 #include "Texture.h"
 #include "SolidNoise.h"
 #include "NoiseTexture.h"
+#include "ImageTexture.h"
+#include "TriangleMesh.h"
+#include "Mesh.h"
 
 int main(int argc, const char * argv[])
 {
@@ -41,8 +44,9 @@ int main(int argc, const char * argv[])
                                   Color(.8, .2, .2)));
      */
     
-    shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new NoiseTexture()));
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(10)));
+    //shapes.push_back(new Triangle(Vector3(-0.5, 0, 1), Vector3(0.5, 0, 1), Vector3(0, 1, 0), Color(.2, .2, .8)));
+    shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new ImageTexture("/Users/dalin/Desktop/School/Duke/Senior Fall/CS 344/RayTracer/RayTracer/RayTracer/NoiseTexture.ppm")));
+    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(3), new MarbleTexture(10)));
     
     float res = 101;
     Image im(res, res);

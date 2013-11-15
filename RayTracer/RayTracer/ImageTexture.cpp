@@ -9,7 +9,7 @@
 #include "ImageTexture.h"
 #include "Image.h"
 
-ImageTexture::ImageTexture(char * file_path) {
+ImageTexture::ImageTexture(char* file_path) {
     image = new Image();
     image -> readPPM(file_path);
 }

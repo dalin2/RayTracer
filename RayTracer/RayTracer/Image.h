@@ -14,6 +14,8 @@
 #include <string>
 #include <fstream>
 #include "Color.h"
+#include <stdio.h>
+#include <stdlib.h>
 using namespace std;
 
 class Image {
